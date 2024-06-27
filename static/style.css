@@ -1,0 +1,38 @@
+/* Elements have the lowest priority */
+body {
+  background-image: url(/images/smokeypurple.gif);
+  color: white;
+}
+
+nav {
+  color: lightblue;
+}
+
+
+/* Classes have a higher priority */
+.box {
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  margin: 50px;
+  border: 10px solid black;
+  background-color: red;
+}
+
+.purple {
+  color: purple;
+}
+
+
+/* IDs take highest priority */
+#footer {
+  color: green;
+}
+
+#header {
+  color: red;
+}
+
+#title {
+  text-align: center;
+}

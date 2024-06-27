@@ -1,0 +1,24 @@
+baseURL: https://rossmallow.neocities.org
+languageCode: en-us
+title: Ross' Neocities Site
+
+# Enables unsafe Hugo rendering to render HTML in Markdown
+#markup:
+#  goldmark:
+#    renderer:
+#      unsafe: true
+
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Contact
+      pageRef: /contact
+      weight: 3
+
+params:
+#  slogan: Slogan

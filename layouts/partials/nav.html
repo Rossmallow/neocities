@@ -1,0 +1,11 @@
+{{ with .Site.Menus.main }}
+<nav>
+  {{ range . }}
+    {{ if $.IsMenuCurrent .Menu . }}
+      <a class="active">{{ .Name }}</a>
+    {{ else }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  {{ end }}
+</nav>
+{{ end }}

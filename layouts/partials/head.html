@@ -1,0 +1,14 @@
+<!-- Required meta tags -->
+ <meta charset="uft-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- css -->
+<link rel="stylesheet" href="/style.css">
+
+<title>
+  {{- if .IsHome -}}
+    {{- .Site.Title }}{{ with .Site.Params.slogan }} - {{ . }}{{ end -}}
+  {{- else -}}
+    {{- .Title }} - {{ .Site.Title -}}
+  {{- end -}}
+</title>
