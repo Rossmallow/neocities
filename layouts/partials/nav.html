@@ -1,5 +1,5 @@
 {{ with .Site.Menus.main }}
-<nav>
+<nav class="flexbox-container">
   {{ range . }}
     {{ if $.IsMenuCurrent .Menu . }}
       <a class="active">{{ .Name }}</a>

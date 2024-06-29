@@ -1,13 +1,19 @@
-{{ define "main" }}
-<section class="content">
-  <section>
+{{ define "index" }}
+<section id="index">
+  <section class="flexbox-container">
   {{ .Content }}
   </section>
-  <section>
+  <section class="flexbox-container">
     <h3>Look at these cool things below!</h3>
-    <div class="box">Box</div>
-    <img src="/images/bloobryan.png" alt="Bloob Ryan">
+    <div class="box-tutorial">Box</div>
+    <div class="flexbox-container-tutorial">
+      <div class="flexbox-item-tutorial flexbox-item-1-tutorial">Flexbox Item 1</div>
+      <div class="flexbox-item-tutorial flexbox-item-2-tutorial">Flexbox Item 2</div>
+      <div class="flexbox-item-tutorial flexbox-item-3-tutorial">Flexbox Item3</div>
+    </div>
+    <a href="https://youtu.be/cEgL56I1uc8?si=iJbKl8keZkDpPt0l"><img src="/images/bloobryan.png" alt="Bloob Ryan"></a>
     <img src="/images/char.png" alt="Drawing of Rossmallow">
+    <iframe src="//incr.easrng.net/badge?key=rossmallow" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>
   </section>
 </section>
 {{ end }}
