@@ -1,7 +1,6 @@
 <section id="header" class="flexbox-container">
   <a href="/"><img id="logo" src="/images/rossmallow.png" alt="Rossmallow Logo"></a>
-  <h1>{{ .Site.Title }}</h1>
-  {{- with .Params.subtitle -}}
-  <h2>{{ . }}</h2>
+  {{- with .Site.Params.subtitle -}}
+  <h1>{{ . }}</h1>
   {{- end -}}
 </section>

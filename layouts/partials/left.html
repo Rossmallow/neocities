@@ -1,12 +1,16 @@
 {{ $currentPage := . }}
-{{ with .Site.Menus.main }}
-<section class="sidebar flexbox-container">
-  {{ range . }}
-    {{ if $currentPage.IsMenuCurrent .Menu . }}
-      <a>{{ .Name }}</a>
-    {{ else }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
+<section id="sidebar" class="flexbox-container">
+  {{ with .Site.Menus.main }}
+  <section class="flexbox-container">
+    <div class="flexbox-container">
+      {{ range . }}
+        {{ if $currentPage.IsMenuCurrent .Menu . }}
+          <a class="element">{{ .Name }}</a>
+        {{ else }}
+          <a class="element" href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
   {{ end }}
 </section>
-{{ end }}

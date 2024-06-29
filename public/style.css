@@ -41,7 +41,11 @@ img {
 
 
 /* Classes have a higher priority */
-.char {
+.char.flexbox-container {
+  align-items: center;
+  background-color: var(--color8);
+  border: 10px outset var(--color4);
+  color: var(--color5);
   float: right;
 }
 
@@ -52,7 +56,30 @@ img {
   justify-content: center;
 }
 
-.main {
+
+/* IDs take highest priority */
+#footer {
+  align-items: center;
+  background-color: var(--color2);
+  border: 3px dotted var(--color3);
+  color: var(--color5);
+  margin: 10px 0px;
+}
+
+#footer section.flexbox-container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#header {
+  align-items: center;
+  background-color: var(--color2);
+  border: 3px dotted var(--color3);
+  color: var(--color5);
+  margin: 10px 0px;
+}
+
+#main {
   background-color: var(--color10);
   border: 3px dotted var(--color3);
   margin: 0 10px;
@@ -60,35 +87,50 @@ img {
   min-width: 650px;
 }
 
-.sidebar {
+#main section {
+  margin: 10px 10px;
+}
+
+#sidebar {
   align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+#sidebar div.flexbox-container {
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+#sidebar div .element {
+  margin: 5px 0;
+}
+
+#sidebar h3 {
+  font-size: small;
+}
+
+#sidebar section.flexbox-container {
+  background-color: var(--color10);
   border: 3px dotted var(--color3);
   flex-basis: 0;
   flex-grow: 1;
   justify-content: flex-start;
-  background-color: var(--color10);
+  min-width: 100%;
 }
 
-
-/* IDs take highest priority */
-#footer {
-  align-items: center;
-}
-
-#header {
-  align-items: center;
-  background-color: var(--color2);
-  border: 3px dotted var(--color3);
-  color: black;
+#sidebar section + section {
+  margin-top: 10px;
 }
 
 
 /* Testing */
-/*.flexbox-container {
+.flexbox-container {
   background-color: rgba(255, 192, 203, 0.226);
-  border: 3px solid rgba(255, 0, 0, 0.226);
-}*/
-
+  outline: 3px solid rgba(255, 0, 0, 0.226);
+}
 
 /* Tutorials */
 .box-tutorial {

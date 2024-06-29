@@ -1,7 +1,10 @@
 {{ define "main" }}
-<section class="main flexbox-container">
+<section id="main" class="flexbox-container">
   <section>
-    <img class="char" src="/images/char.png" alt="Drawing of Rossmallow">
+    <section class="char flexbox-container">
+      <img src="/images/char.png" alt="Drawing of Rossmallow">
+      <p>A cool drawring by my friend Sam</p>
+    </section>
     {{ .Content }}
   </section>
   <section>
