@@ -1,20 +1,33 @@
 /* Elements have the lowest priority */
+a:visited {
+  color: lightblue;
+}
+
 body {
   background-image: url(/images/smokeypurple.gif);
   color: white;
 }
 
 body .content {
-  align-self: center;
-  max-width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-nav {
-  color: lightblue;
+body .page {
+  margin: 0 auto;
+  width: 1070px;
+}
+
+img {
+  max-width: 100%;
 }
 
 
 /* Classes have a higher priority */
+.char {
+  float: right;
+}
+
 .flexbox-container {
   align-content: center;
   display: flex;
@@ -22,10 +35,21 @@ nav {
   justify-content: center;
 }
 
+.main {
+  max-width: 650px;
+  min-width: 650px;
+}
+
 .purple {
   color: purple;
 }
 
+.sidebar {
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
 
 /* IDs take highest priority */
 #footer {
@@ -39,20 +63,11 @@ nav {
   color: black;
 }
 
-#index .flexbox-container {
-  align-items: center;
-}
-
-#logo {
-  flex-basis: 2;
-}
-
-
 /* Testing */
-/*.flexbox-container {
+/* .flexbox-container {
   background-color: rgba(255, 192, 203, 0.226);
   border: 3px solid rgba(255, 0, 0, 0.226);
-}*/
+} */
 
 
 /* Tutorials */
@@ -65,7 +80,7 @@ nav {
   width: 100px;
 }
 
-.flexbox-container-tutorial{
+.flexbox-container-tutorial {
   align-items: center;
   background-color: yellow;
   display: flex;

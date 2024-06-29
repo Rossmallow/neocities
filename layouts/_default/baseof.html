@@ -3,11 +3,14 @@
   <head>
     {{- partial "head" . -}}
   </head>
-  <body class="flexbox-container">
-    <section class="content">
+  <body>
+    <section class="page">
       {{- partial "header" . -}}
-      {{- partial "nav" . -}}
-      {{- block "index" . -}}{{- end }}
+      <section class="content flexbox-container">
+        {{- partial "left" . -}}
+        {{- block "main" . -}}{{- end }}
+        {{- partial "right" . -}}
+      </section>
       {{- partial "footer" . -}}
       {{- partial "script-footer" . -}}
     </section>
