@@ -1,11 +1,28 @@
+/* Color Scheme */
+:root {
+  /* From new logo */
+  --color1: #4B2273;
+  --color2: #5C2B8C;
+  --color3: #5671A6;
+  --color4: #52D5F2;
+  --color5: #F2F2F2;
+  /* From old logo */
+  --color6: #63038C;
+  --color7: #510273;
+  --color8: #AC80BF;
+  --color9: #4E4259;
+  --color10: #DFE2F2;
+}
+
+
 /* Elements have the lowest priority */
 a:visited {
-  color: lightblue;
+  color: var(--color1);
 }
 
 body {
   background-image: url(/images/smokeypurple.gif);
-  color: white;
+  color: var(--color2);
 }
 
 body .content {
@@ -36,20 +53,22 @@ img {
 }
 
 .main {
+  background-color: var(--color10);
+  border: 3px dotted var(--color3);
+  margin: 0 10px;
   max-width: 650px;
   min-width: 650px;
 }
 
-.purple {
-  color: purple;
-}
-
 .sidebar {
   align-items: center;
+  border: 3px dotted var(--color3);
   flex-basis: 0;
   flex-grow: 1;
   justify-content: flex-start;
+  background-color: var(--color10);
 }
+
 
 /* IDs take highest priority */
 #footer {
@@ -58,16 +77,17 @@ img {
 
 #header {
   align-items: center;
-  background-color: lightblue;
-  border: 3px solid orange;
+  background-color: var(--color2);
+  border: 3px dotted var(--color3);
   color: black;
 }
 
+
 /* Testing */
-/* .flexbox-container {
+/*.flexbox-container {
   background-color: rgba(255, 192, 203, 0.226);
   border: 3px solid rgba(255, 0, 0, 0.226);
-} */
+}*/
 
 
 /* Tutorials */
