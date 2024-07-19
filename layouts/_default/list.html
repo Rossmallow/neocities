@@ -6,7 +6,7 @@
   <section>
     <ul>
       {{ range .Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</li>
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</li>
       {{end}}
     </ul>
   </section>
