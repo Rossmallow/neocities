@@ -13,12 +13,15 @@ menus:
     - name: Home
       pageRef: /
       weight: 1
+    - name: Photos
+      pageRef: /photos
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
+      weight: 3
     - name: Contact
       pageRef: /contact
-      weight: 3
+      weight: 4
 
 params:
   slogan: Welcome!

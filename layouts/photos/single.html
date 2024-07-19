@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section id="main">
+  <section>
+    {{ .Content }}
+  </section>
+  <section class="flexbox-container">
+    {{ $path := .Path }}
+    {{ $filepath := printf "static/%s" $path }}
+    {{ range readDir $filepath }}
+      <img src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" class="element">
+    {{ end }}
+  </section>
+</section>
+{{ end }}
