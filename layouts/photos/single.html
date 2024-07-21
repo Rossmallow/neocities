@@ -3,9 +3,9 @@
   {{ .Content }}
   <section class="flexbox-container">
     {{ $path := .Path }}
-    {{ $filepath := printf "static/%s" $path }}
+    {{ $filepath := printf "static%s" $path }}
     {{ range readDir $filepath }}
-      <img id="{{ .Name }}" src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" class="element">
+      <a href="{{ $path }}/{{ .Name }}"><img id="{{ .Name }}" class="zoom" src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" class="element"></a>
     {{ end }}
   </section>
 </section>

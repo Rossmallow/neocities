@@ -23,9 +23,9 @@ draft: false
   - Brownie
   
   ### Favorite Bands
-  1. Rush
-  2. Tricot
-  3. TWRP
+  1. [Rush](https://www.rush.com)
+  2. [tricot](https://tricot-official.jp)
+  3. [TWRP](https://www.twrpband.com)
   
   ### Links
   - [Professional Site](https://www.rossnelson.me)

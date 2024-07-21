@@ -3,11 +3,13 @@
   {{ .Content }}
   <section>
     <h3 id="{{ .Params.list_title }}">{{ .Params.list_title | title }}</h3>
-    <ul>
+    <ol>
       {{ range .Pages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li class="{{ cond ( .Params.new ) "new" "none" }}">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-    </ul>
+    </ol>
   </section>
 </section>
 {{ end }}

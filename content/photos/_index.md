@@ -5,7 +5,7 @@ draft: false
 list_title: photo albums
 ---
 
-<a href="#{{< param list_title >}}" class="float-right">Take me to the photos</a>
+<a class="float-right" href="#{{< param list_title >}}">Take me to the photos</a>
 
 ## {{< param title >}}
 
@@ -20,7 +20,7 @@ I may subscribe to increase my storage and/or start a new instagram specifically
 </section>
 <section class="flexbox-container float-right frame">
   <img src="/images/film_stock.jpg" alt="Boxes of various film stocks">
-  <p>Film Stocks I like</p>
+  <p>Film stocks that I like</p>
 </section>
 
 A couple of my friends have been into Film photography for a while. Because of that, I started to become interested in it as well. I had a trip to Japan planned for July of 2024 and I wanted to get a film camera to use before I went. I had previously gotten a cheap reusable 35mm point-and-shoot from a bookstore in Korea in 2022. I got a couple rolls of film too and took some shots but there's only so much you can do with that in terms of framing and focus etc.
