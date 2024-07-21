@@ -3,10 +3,10 @@ languageCode: en-us
 title: Ross' Neocities Site
 
 # Enables unsafe Hugo rendering to render HTML in Markdown
-#markup:
-#  goldmark:
-#    renderer:
-#      unsafe: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 menus:
   main:

@@ -16,8 +16,8 @@
 
 
 /* Elements have the lowest priority */
-a:visited {
-  color: var(--color1);
+a:visited, a:link {
+  color: inherit;
 }
 
 body {
@@ -41,12 +41,12 @@ img {
 
 
 /* Classes have a higher priority */
-.char.flexbox-container {
-  align-items: center;
-  background-color: var(--color8);
-  border: 10px outset var(--color4);
-  color: var(--color5);
-  float: right;
+.construction {
+  background-image: url(/images/construction.png);
+  background-repeat: no-repeat;
+  height: 20px;
+  margin-bottom: 5px;
+  width: 350px;
 }
 
 .flexbox-container {
@@ -56,19 +56,33 @@ img {
   justify-content: center;
 }
 
+.float-right {
+  float: right;
+  max-width: 300px;
+}
+
+.frame {
+  align-items: center;
+  background-color: var(--color8);
+  border: 10px outset var(--color4);
+  color: var(--color5);
+  margin: 3px;
+}
+
+.frame img {
+  max-width: 300px;
+}
 
 /* IDs take highest priority */
-#footer {
+#footer.flexbox-container {
   align-items: center;
   background-color: var(--color2);
   border: 3px dotted var(--color3);
   color: var(--color5);
-  margin: 10px 0px;
-}
-
-#footer section.flexbox-container {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 10px 0px;
+  min-height: 125px;
 }
 
 #header {
@@ -85,13 +99,10 @@ img {
   margin: 0 10px;
   max-width: 650px;
   min-width: 650px;
+  padding: 10px;
 }
 
-#main section {
-  margin: 10px 10px;
-}
-
-#sidebar {
+#sidebar.flexbox-container {
   align-items: center;
   flex-basis: 0;
   flex-grow: 1;
