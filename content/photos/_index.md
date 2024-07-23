@@ -14,13 +14,15 @@ I may subscribe to increase my storage and/or start a new instagram specifically
 
 <h3>Backstory</h3>
 
-<section class="flexbox-container float-right frame">
-  <img src="/images/miranda_left.jpg" alt="A Miranda Sensorex camera">
-  <p>My Miranda Sensorex Camera</p>
-</section>
-<section class="flexbox-container float-right frame">
-  <img src="/images/film_stock.jpg" alt="Boxes of various film stocks">
-  <p>Film stocks that I like</p>
+<section class="flexbox-container float-right">
+  <section class="frame">
+    <img src="/images/miranda_left.jpg" alt="A Miranda Sensorex camera">
+    <p>My Miranda Sensorex Camera</p>
+  </section>
+  <section class="frame">
+    <img src="/images/film_stock.jpg" alt="Boxes of various film stocks">
+    <p>Film stocks that I like</p>
+  </section>
 </section>
 
 A couple of my friends have been into Film photography for a while. Because of that, I started to become interested in it as well. I had a trip to Japan planned for July of 2024 and I wanted to get a film camera to use before I went. I had previously gotten a cheap reusable 35mm point-and-shoot from a bookstore in Korea in 2022. I got a couple rolls of film too and took some shots but there's only so much you can do with that in terms of framing and focus etc.

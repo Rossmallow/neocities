@@ -17,12 +17,14 @@
 
 /* Elements have the lowest priority */
 a {
+  margin-bottom: -4px; /*a tags add 4px of height to an image?*/
+
   img.zoom {
     transition: 0.5s ease-out;
   }
   
   img.zoom:hover {
-    transform: scale(1.01);
+    transform: scale(1.02);
     transition: 0.5s ease-out;
   }
 }
@@ -34,24 +36,28 @@ a:visited, a:link {
 body {
   background-image: url(/images/smokeypurple.gif);
   color: var(--color2);
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
 
-  .content {
+  .content.flexbox-container {
     flex-direction: row;
-    gap: 10px;
+    gap: inherit;
     justify-content: space-between;
+    margin: 0 4px;
   }
 
-  .page {
+  .page.flexbox-container {
+    gap: 10px;
     margin: 0 auto;
-    width: 1070px;
-
+    padding: 1%;
+    max-width: 1070px;;
   }
 }
 
 img {
   max-width: 100%;
 }
-
 
 li.new {
   background-image: url(/images/new.gif);
@@ -60,13 +66,19 @@ li.new {
   padding-left: 32px;
 }
 
+/* Probably a better way of adding the arrow */
+/*li.new::before {
+  content: url(/images/new.gif);
+}*/
 
 /* Classes have a higher priority */
 .construction {
   background-image: url(/images/construction.png);
   background-repeat: no-repeat;
+  background-size: 100%;
   height: 20px;
   margin-bottom: 5px;
+  max-width: 100%;
   width: 350px;
 }
 
@@ -79,19 +91,16 @@ li.new {
 
 .float-right {
   float: right;
-  max-width: 300px;
+  margin-left: 1ch;
+  margin-bottom: 1rem;
+  max-width: 40%;
 }
 
 .frame {
-  align-items: center;
   background-color: var(--color8);
   border: 10px outset var(--color4);
   color: var(--color5);
-  margin: 3px;
-
-  img {
-    min-width: 300px;
-  }
+  text-align: center;
 }
 
 
@@ -102,17 +111,26 @@ li.new {
   border: 3px dotted var(--color3);
   color: var(--color5);
   flex-direction: row;
+  height: 125px;
   justify-content: space-around;
-  margin: 10px 0px;
-  min-height: 125px;
-  max-height: 125px;
 
-  #credits.flexbox-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 4px;
-    max-width: 180px;
+  #credits {
+    width: 33%;
+
+    .flexbox-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin: auto;
+      max-width: calc((88px * 2) + 4px);
+    }
   }
+
+  p {
+    width: 33%;
+    text-align: center;
+  }
+
 }
 
 #header {
@@ -120,24 +138,23 @@ li.new {
   background-color: var(--color2);
   border: 3px dotted var(--color3);
   color: var(--color5);
-  margin: 10px 0px;
 }
 
 #main {
   background-color: var(--color10);
   border: 3px dotted var(--color3);
   max-width: 650px;
-  min-width: 650px;
-  padding: 10px;
+  width: 70%;
+  padding: 1rem;
 }
 
 #sidebar {
   align-items: center;
   flex-basis: 0;
   flex-grow: 1;
-  gap: 5px;
-  margin: 0 4px;
+  gap: inherit;
   justify-content: flex-start;
+  width: 15%;
 
   div.flexbox-container {
     align-items: center;
@@ -159,10 +176,6 @@ li.new {
     flex-grow: 1;
     justify-content: flex-start;
     min-width: 100%;
-  }
-
-  section + section {
-    margin-top: 10px;
   }
 }
 
