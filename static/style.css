@@ -44,7 +44,7 @@ body {
     flex-direction: row;
     gap: inherit;
     justify-content: space-between;
-    margin: 0 4px;
+    margin: 0 3px;
   }
 
   .page.flexbox-container {
@@ -83,7 +83,6 @@ li.new {
 }
 
 .flexbox-container {
-  align-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,6 +100,38 @@ li.new {
   border: 10px outset var(--color4);
   color: var(--color5);
   text-align: center;
+}
+
+.sidebar {
+  align-items: center;
+  flex-grow: 1;
+  gap: inherit;
+  width: calc(15% - (0.25em + 10px)); /*0.25em for the margin 10px for the flex gap*/
+
+  div.flexbox-container {
+    align-items: center;
+    gap: 0.33em;
+    justify-content: space-around;
+    padding: 0.25em;
+  }
+
+  h3 {
+    font-size: small;
+    margin: 0;
+  }
+
+  section.flexbox-container {
+    background-color: var(--color10);
+    border: 3px dotted var(--color3);
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: flex-start;
+    min-width: 100%;
+  }
+
+  #increment {
+    max-width: 100%;
+  }
 }
 
 
@@ -144,47 +175,16 @@ li.new {
   background-color: var(--color10);
   border: 3px dotted var(--color3);
   max-width: 650px;
-  width: 70%;
-  padding: 1rem;
-}
-
-#sidebar {
-  align-items: center;
-  flex-basis: 0;
-  flex-grow: 1;
-  gap: inherit;
-  justify-content: flex-start;
-  width: 15%;
-
-  div.flexbox-container {
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  div .element {
-    margin: 5px 0;
-  }
-
-  h3 {
-    font-size: small;
-  }
-
-  section.flexbox-container {
-    background-color: var(--color10);
-    border: 3px dotted var(--color3);
-    flex-basis: 0;
-    flex-grow: 1;
-    justify-content: flex-start;
-    min-width: 100%;
-  }
+  width: calc(70% - 1rem);
+  padding: 0.5rem;
 }
 
 
 /* Testing */
-/* .flexbox-container {
+/*.flexbox-container {
   background-color: rgba(255, 192, 203, 0.226);
   outline: 3px solid rgba(255, 0, 0, 0.226);
-} */
+}*/
 
 
 /* Tutorials */
