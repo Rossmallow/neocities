@@ -1,12 +1,17 @@
 <section id="footer" class="flexbox-container">
-  <section id="credits">
-    <section class="flexbox-container">
-      <a href="https://www.neocities.org"><img class="zoom" src="/images/neocities.gif"></a>
-      <a href="https://gohugo.io"><img class="zoom" src="/images/hugo.jpg"></a>
-      <a href="https://code.visualstudio.com"><img class="zoom" src="/images/vscode.gif"></a>
-      <a href="https://www.mozilla.org/en-US/firefox"><img class="zoom" src="/images/firefox.jpg"></a>
-    </section>
+  <section>
+    <div id="credits" class="flexbox-container">
+      <a href="https://www.neocities.org"><img class="zoom" src="/images/neocities.gif" alt="Hosted on neocities.org"></a>
+      <a href="https://gohugo.io"><img class="zoom" src="/images/hugo.jpg" alt="Made with the Hugo Framework"></a>
+      <a href="https://code.visualstudio.com"><img class="zoom" src="/images/vscode.gif" alt="Made with Visual Studio Code"></a>
+      <a href="https://www.mozilla.org/en-US/firefox"><img class="zoom" src="/images/firefox.jpg" alt="Tested with Firefox"></a>
+    </div>
   </section>
   <a id="top" href="#"><img class="zoom" src="/images/top.gif"></a>
-  <p>Last updated on {{ time.Now | time.Format "Jan 2, 2006" }}</p>
+  <section>
+    <div id="github" class="flexbox-container">
+      <a href="https://www.github.com/rossmallow/neocities"><img class="zoom" src="/images/github.gif"></a>
+      <p>Last updated on {{ time.Now | time.Format "Jan 2, 2006" }}</p>
+    </div>
+  </section>
 </section>

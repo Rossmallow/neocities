@@ -110,7 +110,7 @@ li.new {
 
   div.flexbox-container {
     align-items: center;
-    gap: 0.33em;
+    gap: 0.75em;
     justify-content: space-around;
     padding: 0.25em;
   }
@@ -145,23 +145,27 @@ li.new {
   height: 125px;
   justify-content: space-around;
 
-  #credits {
+  section {
     width: 33%;
 
-    .flexbox-container {
+    #credits {
       flex-direction: row;
       flex-wrap: wrap;
       gap: 4px;
       margin: auto;
       max-width: calc((88px * 2) + 4px);
     }
-  }
 
-  p {
-    width: 33%;
-    text-align: center;
-  }
+    #github {
+      align-items: center;
+      gap: 0.5rem;
 
+      p {
+        text-align: center;
+        margin: 0;
+      }
+    }
+  }
 }
 
 #header {
@@ -177,6 +181,25 @@ li.new {
   max-width: 650px;
   width: calc(70% - 1rem);
   padding: 0.5rem;
+}
+
+
+/* Media Options */
+@media screen and (max-width: 1070px) {
+  #header {
+    position: relative;
+
+    .best-desktop {
+      background-image: url(/images/best-desktop.gif);
+      background-repeat: no-repeat;
+      bottom: 0px;
+      height: 31px;
+      position: absolute;
+      right: 0px;
+      width: 88px;
+      margin: 1em;
+    }
+  }
 }
 
 
