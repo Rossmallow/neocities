@@ -106,13 +106,22 @@ li.new {
   align-items: center;
   flex-grow: 1;
   gap: inherit;
+  text-align: center;
   width: calc(15% - (0.25em + 10px)); /*0.25em for the margin 10px for the flex gap*/
-
+  
   div.flexbox-container {
     align-items: center;
     gap: 0.75em;
     justify-content: space-around;
     padding: 0.25em;
+  }
+  
+  div.realtimeuserscounter {
+    text-align: center;
+
+    a {
+      display: none;
+    }
   }
 
   h3 {

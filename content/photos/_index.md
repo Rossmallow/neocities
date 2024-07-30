@@ -16,11 +16,11 @@ I may subscribe to increase my storage and/or start a new instagram specifically
 
 <section class="flexbox-container float-right">
   <section class="frame">
-    <img src="/images/miranda_left.jpg" alt="A Miranda Sensorex camera">
+    <img src="/photos/miranda_left.jpg" alt="A Miranda Sensorex camera">
     <p>My Miranda Sensorex Camera</p>
   </section>
   <section class="frame">
-    <img src="/images/film_stock.jpg" alt="Boxes of various film stocks">
+    <img src="/photos/film_stock.jpg" alt="Boxes of various film stocks">
     <p>Film stocks that I like</p>
   </section>
 </section>
