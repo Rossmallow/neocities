@@ -1,8 +1,24 @@
 <!-- Required meta tags -->
- <meta charset="uft-8">
- <meta name="viewport" content="width=device-width">
+<meta charset="uft-8">
+<meta name="viewport" content="width=device-width">
 
- <!-- css -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'report-sample' 'self' https://realtimeusers.bycontrast.co/realtimeusers.js;
+  style-src 'report-sample' 'self';
+  object-src 'none';
+  base-uri 'self';
+  connect-src 'self' https://discord.com/api/webhooks/ https://realtimeusers.bycontrast.co/stats/rossmallow.neocities.org;
+  font-src 'self';
+  frame-src 'self' https://incr.easrng.net;
+  img-src 'self';
+  manifest-src 'self';
+  media-src 'self';
+  report-uri 'none';
+  worker-src 'none';
+">
+
+<!-- css -->
 <link rel="stylesheet" href="/style.css">
 
 <title>
