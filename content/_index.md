@@ -16,7 +16,20 @@ draft: false
 <section>
   <p>This site is still under construction.<br>
   Please wear a hard hat and watch your step!</p>
-  
+
+  <div class="note">
+    <section>
+      <h3>To Do:</h3>
+      <ul>
+        <li>"Things That Make Me Laugh" page & 'Featured Gaff'</li>
+        <li>Add Home page content</li>
+        <li>Banner "ads"</li>
+        <li>Finish About & Contact pages</li>
+        <li>Try out fonts</li>
+      </ul>
+    </section>
+  </div>
+
   ### Desserts I Like
   - Cookie
   - Ice Cream
@@ -26,7 +39,7 @@ draft: false
   1. [Rush](https://www.rush.com)
   2. [tricot](https://tricot-official.jp)
   3. [TWRP](https://www.twrpband.com)
-  
+
   ### Links
   - [Professional Site](https://www.rossnelson.me)
   - [Bass Instagram](https://www.instagram.com/rnelson2112)
