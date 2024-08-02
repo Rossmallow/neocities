@@ -124,13 +124,19 @@ li.new {
     
     ul {
       max-height: 150px;
-      overflow-y: scroll;
-      scrollbar-width: thin;
-      scrollbar-color: gray transparent;
-
+      overflow: hidden;
+      padding-right: 13px;
+      
       li {
         margin-bottom: 0.5em;
       }
+    }
+    
+    ul:hover {
+      overflow-y: scroll;
+      padding-right: 0px;
+      scrollbar-width: thin;
+      scrollbar-color: gray transparent;
     }
   }
 }
