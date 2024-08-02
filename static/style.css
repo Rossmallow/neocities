@@ -134,7 +134,7 @@ li.new {
     
     ul:hover {
       overflow-y: scroll;
-      padding-right: 0px;
+      padding-right: 5px;
       scrollbar-width: thin;
       scrollbar-color: gray transparent;
     }
