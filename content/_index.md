@@ -27,7 +27,7 @@ draft: false
         <li>Try out fonts</li>
         <li>Create 404 page</li>
         <li>Automatically set images for features</li>
-        <li>Take a look at sidebars again</li>
+        <li class="line-through">Take a look at sidebars again</li>
         <li class="line-through">'Things That Make Me Laugh' page & 'Featured Gaff'</li>
       </ul>
     </section>

@@ -148,41 +148,43 @@ li.new {
   text-align: center;
   width: calc(15% - (0.25em + 10px)); /*0.25em for the margin 10px for the flex gap*/
   
-  div.flexbox-container {
-    align-items: center;
-    gap: 0.25em;
-    justify-content: space-around;
-    padding: 0.25em;
-  }
-  
-  div.realtimeuserscounter {
-    text-align: center;
-
-    a {
-      display: none;
-    }
-  }
-
   h3 {
     font-size: small;
     margin: 0;
   }
-
+  
   section.flexbox-container {
     background-color: var(--color10);
     border: 3px dotted var(--color3);
     flex-basis: 0;
+    gap: 1em;
     justify-content: flex-start;
     min-width: 100%;
+    
+    div.flexbox-container {
+      align-items: center;
+      gap: 0.5em;
+      justify-content: space-around;
+      padding: 0.25em;
+      
+      div.realtimeuserscounter {
+        text-align: center;
+        
+        a {
+          display: none;
+        }
+      }
 
+      .increment {
+        max-width: 100%;
+      }
+    }
   }
+
   section.flexbox-container:last-child {
     flex-grow: 1;
   }
 
-  #increment {
-    max-width: 100%;
-  }
 }
 
 
