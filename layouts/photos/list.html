@@ -5,7 +5,7 @@
     <h3 id="{{ .Params.list_title }}">{{ .Params.list_title | title }}</h3>
     <ol>
       {{ range .Pages }}
-      <li class="{{ cond ( .Params.new ) "new" "none" }}">
+      <li class={{ cond ( .Params.new ) "new" "none" }}>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
       {{ end }}

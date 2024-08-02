@@ -102,6 +102,10 @@ li.new {
   text-align: center;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 .note {
   background-image: url(/images/note.png);
   background-repeat: no-repeat;
@@ -112,15 +116,21 @@ li.new {
   section {
     padding-top: 25px;
     padding-left: 30px;
-    padding-right: 45px;
+    padding-right: 55px;
     
     h3 {
       text-align: center;
-      margin-bottom: -0.5em;
     }
+    
+    ul {
+      max-height: 150px;
+      overflow-y: scroll;
+      scrollbar-width: thin;
+      scrollbar-color: gray transparent;
 
-    li {
-      margin-bottom: 0.5em;
+      li {
+        margin-bottom: 0.5em;
+      }
     }
   }
 }
@@ -134,7 +144,7 @@ li.new {
   
   div.flexbox-container {
     align-items: center;
-    gap: 0.75em;
+    gap: 0.25em;
     justify-content: space-around;
     padding: 0.25em;
   }
@@ -156,9 +166,12 @@ li.new {
     background-color: var(--color10);
     border: 3px dotted var(--color3);
     flex-basis: 0;
-    flex-grow: 1;
     justify-content: flex-start;
     min-width: 100%;
+
+  }
+  section.flexbox-container:last-child {
+    flex-grow: 1;
   }
 
   #increment {
@@ -215,6 +228,39 @@ li.new {
   padding: 0.5rem;
 }
 
+#recommendations {
+  .flexbox-container {
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: flex-start;
+
+    h3 {
+      text-align: center;
+    }
+
+    .flexbox-container {
+      flex-direction: row;
+      
+      div {
+        flex-direction: column;
+        width: 33%;
+
+        a {
+          align-self: center;
+
+          img {
+            max-height: 121px;
+          }
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
 
 /* Media Options */
 @media screen and (max-width: 1070px) {
@@ -222,7 +268,7 @@ li.new {
     position: relative;
 
     .best-desktop {
-      background-image: url(/images/best-desktop.jpg);
+      background-image: url(/images/best_desktop.jpg);
       background-repeat: no-repeat;
       bottom: 0px;
       height: 31px;

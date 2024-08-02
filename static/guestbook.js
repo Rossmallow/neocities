@@ -35,8 +35,8 @@ msg_input.addEventListener("input", countCharacters);
 //    https://codepen.io/sadness97/pen/YzEgxox?editors=1010
 let button = document.getElementById("send")
 button.onclick = function() {
-  let name_label = document.getElementById("name_label");
-  let msg_label = document.getElementById("msg_label");
+  let name_label = document.getElementById("name-label");
+  let msg_label = document.getElementById("msg-label");
 
   // var datetime = new Date().toLocaleString("en-US");
   var name = name_input.value;

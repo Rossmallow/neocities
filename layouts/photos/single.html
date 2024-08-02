@@ -5,7 +5,7 @@
     {{ $path := .Path }}
     {{ $filepath := printf "static%s" $path }}
     {{ range readDir $filepath }}
-      <a href="{{ $path }}/{{ .Name }}"><img id="{{ .Name }}" class="zoom" src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" class="element"></a>
+      <a href="{{ $path }}/{{ .Name }}"><img id="{{ .Name }}" class="zoom" src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" title="{{replace .Name ".jpg" " " | title }}" class="element"></a>
     {{ end }}
   </section>
 </section>

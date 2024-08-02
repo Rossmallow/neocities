@@ -21,11 +21,14 @@ draft: false
     <section>
       <h3>To Do:</h3>
       <ul>
-        <li>"Things That Make Me Laugh" page & 'Featured Gaff'</li>
         <li>Add Home page content</li>
         <li>Banner "ads"</li>
         <li>Finish About & Contact pages</li>
         <li>Try out fonts</li>
+        <li>Create 404 page</li>
+        <li>Automatically set images for features</li>
+        <li>Take a look at sidebars again</li>
+        <li class="line-through">'Things That Make Me Laugh' page & 'Featured Gaff'</li>
       </ul>
     </section>
   </div>

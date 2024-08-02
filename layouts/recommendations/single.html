@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section id="main">
+  <section id="recommendations">
+    {{ .Content }}
+    <section class="flexbox-container">
+    {{ range $k, $v := .Params.sections }}
+      <h3>{{ replace $k "_" " " | title}}</h3>
+      <section class="{{ $k }} flexbox-container">
+        {{ range $v }}
+          <div id="{{ .id }}" class="flexbox-container">
+            <a href="{{ .url }}"><img class="zoom" src="{{ .image }}" alt="{{ .title }} - {{ .creator }}" title="{{ .title }} - {{ .creator }}"></a>
+            <p>{{ .description }}</p>
+          </div>
+        {{ end }}
+      </section>
+    {{ end }}
+    </section>
+  </section>
+</section>
+{{ end }}
