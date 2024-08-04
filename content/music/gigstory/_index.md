@@ -8,4 +8,4 @@ draft: false
 
 ## {{< param title >}}
 
-Here is an incomplete history of my gigs as a musician w/ setlists.
+Here is a (mosty) complete history of my gigs as a bassist.

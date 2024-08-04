@@ -1,8 +1,8 @@
 ---
-title: Japan 2024
+title: 2024-07 (Japan)
 date: 2024-07-19T08:37:29-05:00
 draft: false
-new: true
+new: false
 ---
 
 ## {{< param title >}}

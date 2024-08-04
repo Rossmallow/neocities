@@ -20,3 +20,8 @@ This is a place where I will post and write about music gear that I have collect
   <img src="/music/sterling_ray4.jpg" alt="A sparkling purple Sterling Ray4 bass">
   <p>2022 Purple Sparkle Sterling Ray4</p>
 </section>
+
+<section class="flexbox-container frame">
+  <img src="/music/collection.jpg" alt="A collection of various bass guitars, amplifiers, and effect pedals">
+  <p>My main basses, amps, and pedal board</p>
+</section>
