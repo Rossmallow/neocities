@@ -8,7 +8,7 @@ sections:
   things_that_make_me_laugh:
     1:
       creator: douggpound
-      description: I love the absurdity of Doug's work and Bloob Ryan makes me laugh.
+      description: I love the absurdity of Doug's work and this picture of Bloob Ryan makes me laugh.
       id: ""
       image: /recommendations/bloobryan.png
       title: 2 Wet Blue
@@ -37,10 +37,17 @@ sections:
     5:
       creator: Sacha Baron Cohen
       description: Borat swinging around for a minute and a half to cover the tree is hilarious.
-      id: featured-funny
+      id: ""
       image: /recommendations/borat.jpg
       title: Borat Paying Respect to the Oldest Tree in US&A
       url: https://youtu.be/bgkYgGKuU_Q?si=9v7SG9WDZI6MAa7F
+    6:
+      creator: doggpund
+      description: I listened to this probabaly close to 50 time the first few days after I heard it. Be sure to turn on subtitles for the lyrics.
+      id: featured-funny
+      image: /recommendations/jummies.jpg
+      title: Jummies Growling Gummies Remix
+      url: https://youtu.be/6PHYUm256R0?si=lN0cVo-X9NbDEzBp
 ---
 
 ## {{< param title >}}
