@@ -30,10 +30,17 @@ sections:
     4:
       creator: The Jerky Boys
       description: I was laughing for hours - no, days the frist time I heard "That's a fucking tuba".
-      id: featured-funny
+      id: ""
       image: /recommendations/jerkyboys.jpg
       title: I'm A Diva
       url: https://youtu.be/a_NHgmwdMyU?si=myMqsMc93GkHr34P
+    5:
+      creator: Sacha Baron Cohen
+      description: Borat swinging around for a minute and a half to cover the tree is hilarious.
+      id: featured-funny
+      image: /recommendations/borat.jpg
+      title: Borat Paying Respect to the Oldest Tree in US&A
+      url: https://youtu.be/bgkYgGKuU_Q?si=9v7SG9WDZI6MAa7F
 ---
 
 ## {{< param title >}}
