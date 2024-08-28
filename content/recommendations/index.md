@@ -44,10 +44,17 @@ sections:
     6:
       creator: doggpund
       description: I listened to this probabaly close to 50 time the first few days after I heard it. Be sure to turn on subtitles for the lyrics.
-      id: featured-funny
+      id: ""
       image: /recommendations/jummies.jpg
       title: Jummies Growling Gummies Remix
       url: https://youtu.be/6PHYUm256R0?si=lN0cVo-X9NbDEzBp
+    7:
+      creator: GameGrumps
+      description: The Grumps are my favorite "Let's Play"-ers and this is a great game to watch them play. This moment especially had me laughing so hard that I almost choked on my ice cream.
+      id: featured-funny
+      image: /recommendations/gg_plateup.jpg
+      title: Wiener Pies is back open! | Plate Up
+      url: https://www.youtube.com/watch?v=1I4KGTDRbJ8&t=1238s
 ---
 
 ## {{< param title >}}
