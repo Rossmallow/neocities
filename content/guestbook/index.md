@@ -21,6 +21,7 @@ Creating this guestbook with this [tutorial](https://goblin-heart.net/sadgrl/lea
   <textarea id="message" rows="4" cols="50" placeholder="Hey Ross, cool website. I dig it!"></textarea>
   <span id="counter">xxxx/xxxx</span><br>
   <button id="send" type="button">Send</button>
+  <span id="notifier"></span><br>
 </form>
 
 Be the first to submit an entry!
