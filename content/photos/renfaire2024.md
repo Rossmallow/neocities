@@ -7,4 +7,4 @@ new: true
 
 ## {{< param title >}}
 
-Photos taken at the Bristol Reniassance Faire 2024
+Photos taken at the Bristol Reniassance Faire 2024. Shot with Fuji Superia X-Tra 400 on my Miranda.
