@@ -46,6 +46,7 @@ button.onclick = function() {
 
   msg_label.style.color = 'inherit';
   name_label.style.color = 'inherit';
+  notify_span.textContent = '';
   notify_span.style.color = 'inherit';
 
   if (name == '' || message == '') {
