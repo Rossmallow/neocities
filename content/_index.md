@@ -22,13 +22,13 @@ draft: false
       <h3>To Do:</h3>
       <ul>
         <li>Add Home page content</li>
-        <li>Compress photos to speed up loading times</li>
         <li>Banner "ads"</li>
         <li>Finish About & Contact pages</li>
         <li>Try out fonts</li>
         <li>Create 404 page</li>
-        <li>Find alternative image hosting (maybe)</li>
+        <li>Find alternative image hosting for large images (maybe)</li>
         <li>Automatically set images for features</li>
+        <li class="line-through">Compress photos to speed up loading times</li>
         <li class="line-through">Take a look at sidebars again</li>
         <li class="line-through">'Things That Make Me Laugh' page & 'Featured Gaff'</li>
       </ul>
