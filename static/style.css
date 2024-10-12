@@ -82,6 +82,18 @@ li.new {
   width: 350px;
 }
 
+.expandable.expanded {
+  height: inherit;
+}
+
+.expandable.shrunk {
+  height: 8em;
+  overflow: clip;
+  background-image: -webkit-linear-gradient(var(--color2), transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .flexbox-container {
   display: flex;
   flex-direction: column;

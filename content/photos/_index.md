@@ -23,8 +23,9 @@ I may subscribe to increase my storage and/or start a new instagram specifically
       <p>Film stocks that I like</p>
     </section>
   </section>
-<section>
-  A couple of my friends have been into film photography for a while. Because of that, I started to become interested in it as well. I had a trip to Japan planned for July of 2024 and I wanted to get a film camera to use before I went. I had previously gotten a cheap reusable 35mm point-and-shoot from a bookstore in Korea in 2022. I got a couple rolls of film too and took some shots but there's only so much you can do with that in terms of framing and focus etc.
+<section class="expandable shrunk">
+  <!-- p tags because Hugo doesn't put them around the first paragraph for some reason -->
+  <p>A couple of my friends have been into film photography for a while. Because of that, I started to become interested in it as well. I had a trip to Japan planned for July of 2024 and I wanted to get a film camera to use before I went. I had previously gotten a cheap reusable 35mm point-and-shoot from a bookstore in Korea in 2022. I got a couple rolls of film too and took some shots but there's only so much you can do with that in terms of framing and focus etc.</p>
 
   I went to a local thrift store and found what I believe is a Miranda DR. I didn't know anything about SLR cameras at the time, but it seemed to work well enough and was only about $35. I bought it, but quickly learned that it was broken. I decided to open it up and discovered that one of the gears for the film advance lever was stripped badly and kept slipping.
 
@@ -34,3 +35,4 @@ I may subscribe to increase my storage and/or start a new instagram specifically
 
   I'm still discovering my tastes and styles. I went to Central Camera in Chicago to buy some film and was convinced to give CineStill a try. It's attractive because it's actually a movie film that has been modified for photography. Because it's a movie film, people say it has a "cinematic" look and feel compared to other photography film stocks. When I was in Japan, I couldn't find any CineStill to replace my first roll but instead I found something called Marix which follows the same concept of a modified movie film. I much preferred the look of the Marix 800T to the CineStill 400. I'm looking forward to trying more film stocks like CineStill 800T and Portra to find what I like the best.
 </section>
+<button class="expand-toggle" type="button">show more</button>

@@ -28,6 +28,7 @@ draft: false
         <li>Create 404 page</li>
         <li>Find alternative image hosting for large images (maybe)</li>
         <li>Automatically set images for features</li>
+        <li class="line-through">Make a "show more" button for longer paragraphs</li>
         <li class="line-through">Compress photos to speed up loading times</li>
         <li class="line-through">Take a look at sidebars again</li>
         <li class="line-through">'Things That Make Me Laugh' page & 'Featured Gaff'</li>
