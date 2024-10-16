@@ -6,27 +6,21 @@ draft: false
 
 <div class="construction"></div>
 
-<section class="flexbox-container float-right frame">
-  <img src="/images/char.png" alt="Drawing of Rossmallow">
-  <p>A cool drawring by my friend Sam</p>
-</section>
-
-## {{< param title >}}
-
-<section>
-  <p>This site is still under construction.<br>
-  Please wear a hard hat and watch your step!</p>
-
+<section class="flexbox-container float-right">
+  <section class="frame">
+    <img src="/images/char.png" alt="Drawing of Rossmallow">
+    <p>A cool drawring by my friend Sam</p>
+  </section>
   <div class="note">
     <section>
       <h3>To Do:</h3>
       <ul>
         <li>Add Home page content</li>
+        <li>Find alternative image hosting for large images</li>
         <li>Banner "ads"</li>
         <li>Finish About & Contact pages</li>
         <li>Try out fonts</li>
         <li>Create 404 page</li>
-        <li>Find alternative image hosting for large images (maybe)</li>
         <li>Automatically set images for features</li>
         <li class="line-through">Make a "show more" button for longer paragraphs</li>
         <li class="line-through">Compress photos to speed up loading times</li>
@@ -35,6 +29,15 @@ draft: false
       </ul>
     </section>
   </div>
+</section>
+
+## {{< param title >}}
+
+<section>
+  <p>
+    This site is still under construction.<br>
+    Please wear a hard hat and watch your step!
+  </p>
 
   ### Desserts I Like
   - Cookie
