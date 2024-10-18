@@ -30,7 +30,7 @@ const Utils = {
 };
 
 const FindContent = {
-  expandable: function(button_class, expandable_class) {
+  expandable: function(button_class) {
    const expand_buttons = document.querySelectorAll(button_class);
     
    expand_buttons.forEach(function(button) {
@@ -40,4 +40,4 @@ const FindContent = {
   }
 };
  
-FindContent.expandable('.expand-toggle', '.expandable');
+FindContent.expandable('.expand-toggle');
