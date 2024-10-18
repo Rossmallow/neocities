@@ -1,6 +1,7 @@
 {{ define "main" }}
 <section id="main">
   {{ .Content }}
+  <a hidden href="https://imgur.com/a/{{ .Params.album_id }}">Imgur Album</a>
   <section class="flexbox-container">
     {{ $path := .Path }}
     {{ $filepath := printf "static%s" $path }}
@@ -10,7 +11,9 @@
     {{ end }}
     {{ end }}
   </section>
+  <!-- Commenting this out because it doesn't work due to Neocities' Content Security Policy
   <p hidden id="album_id" >{{ .Params.album_id }}</p>
   <script type="module" src="/photos.js"></script>
+  -->
 </section>
 {{ end }}
