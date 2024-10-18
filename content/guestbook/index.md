@@ -28,4 +28,4 @@ Creating this guestbook with this [tutorial](https://goblin-heart.net/sadgrl/lea
 
 Be the first to submit an entry!
 
-<script src="/guestbook.js"></script>
+<script src="/javascript/guestbook.js"></script>
