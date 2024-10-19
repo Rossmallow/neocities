@@ -1,12 +1,39 @@
 {{ define "main" }}
 <section id="main">
+  <div class="flexbox-container float-right">
+    {{ $exit := false }}
+    {{ $prev := "" }}
+    {{ $next := "" }}
+    {{ range sort .Parent.Pages "Title" "asc" }}
+      {{ if $exit }}
+        {{ $next = .Page.RelPermalink }}
+        {{ break }}
+      {{ end }}
+      {{ if eq .Page.RelPermalink $.RelPermalink }}
+        {{ $exit = true }}
+      {{ else }}
+        {{ $prev = .Page.RelPermalink }}
+      {{ end }}
+    {{ end }}
+
+    {{ if ne $next "" }}
+      <a href="{{ $next }}">Next</a>
+    {{ else }}
+      <a>Next</a>
+    {{ end }}
+    {{ if ne $prev "" }}
+    <a href="{{ $prev }}">Previous</a>
+    {{ else }}
+      <a>Previous</a>
+    {{ end }}
+  </div>
   {{ .Content }}
   <a hidden href="https://imgur.com/a/{{ .Params.album_id }}">Imgur Album</a>
   <section class="flexbox-container">
     {{ $path := .Path }}
     {{ $filepath := printf "static%s" $path }}
     {{ range readDir $filepath }}
-      <a href="{{ $path }}/{{ .Name }}"><img id="{{ .Name }}" class="zoom" src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" title="{{replace .Name ".jpg" " " | title }}" class="element"></a>
+      <a href="{{ $path }}/{{ .Name }}"><img id="{{ .Name }}" class="zoom element" src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" title="{{replace .Name ".jpg" " " | title }}"></a>
     {{ end }}
   </section>
   <!-- Commenting this out because it doesn't work due to Neocities' Content Security Policy

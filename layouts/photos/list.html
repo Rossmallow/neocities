@@ -4,7 +4,7 @@
   <section>
     <h3 id="{{ .Params.list_title }}">{{ .Params.list_title | title }}</h3>
     <ul>
-      {{ range .Pages }}
+      {{ range sort .Pages "Title" "desc" }}
       <li class={{ cond ( .Params.new ) "new" "none" }}>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </li>
