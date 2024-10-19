@@ -6,9 +6,7 @@
     {{ $path := .Path }}
     {{ $filepath := printf "static%s" $path }}
     {{ range readDir $filepath }}
-    {{ if not (eq .Name "tiny") }}
-      <a href="{{ $path }}/{{ .Name }}"><img id="{{ .Name }}" class="zoom" src="{{ $path }}/tiny/{{ .Name }}" alt="{{ .Name }}" title="{{replace .Name ".jpg" " " | title }}" class="element"></a>
-    {{ end }}
+      <a href="{{ $path }}/{{ .Name }}"><img id="{{ .Name }}" class="zoom" src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" title="{{replace .Name ".jpg" " " | title }}" class="element"></a>
     {{ end }}
   </section>
   <!-- Commenting this out because it doesn't work due to Neocities' Content Security Policy
