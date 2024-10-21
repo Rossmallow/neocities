@@ -2,6 +2,7 @@
 title: Music
 date: 2024-07-29T19:16:11-05:00
 draft: false
+layout: list_by_title_asc
 list_title: music pages
 ---
 
