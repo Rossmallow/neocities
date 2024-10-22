@@ -306,9 +306,9 @@ li.new {
 
 #sidebar-l {
   section.flexbox-container:first-child {
-    flex-grow: 2;
-    padding-top: 0.5em;
     line-height: 1.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
   }
 }
 
