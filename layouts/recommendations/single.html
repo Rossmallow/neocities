@@ -11,7 +11,7 @@
             <a href="{{ .url }}"><img class="zoom" src="{{ .image }}" alt="{{ .title }} - {{ .creator }}" title="{{ .title }} - {{ .creator }}"></a>
             {{ if .expandable }}
             <p class="expandable shrunk">{{ .description }}</p>
-            <button class="expand-toggle" type="button">show more</button>
+            <button class="expand-toggle show-more" type="button"></button>
             {{ else }}
             <p>{{ .description }}</p>
             {{ end }}

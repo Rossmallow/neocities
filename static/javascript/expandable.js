@@ -12,18 +12,19 @@ const Utils = {
   
   expand: function(button, content) {
     button.addEventListener('click', event => {
-      const button_text = event.target.textContent;
+      const button_class = event.target.classList;
       event.preventDefault();
-      
-      console.log(this);
-      if (button_text == 'show more') {
+
+      if (button_class[1] == 'show-more') {
         this.removeClass(content, 'shrunk');
         this.addClass(content, 'expanded');
-        button.textContent = 'show less';
+        this.removeClass(button, 'show-more');
+        this.addClass(button, 'show-less');
       } else {
         this.removeClass(content, 'expanded');
         this.addClass(content, 'shrunk');
-        button.textContent = 'show more';
+        this.removeClass(button, 'show-less');
+        this.addClass(button, 'show-more');
       }
     });
   } 

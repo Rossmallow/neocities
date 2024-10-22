@@ -82,6 +82,29 @@ li.new {
   width: 350px;
 }
 
+.expand-toggle {
+  cursor: pointer;
+  height: 24px;
+  width: 154px;
+
+}
+
+.expand-toggle.show-more {
+  background-image: url(/images/show_more.png);
+}
+
+.expand-toggle.show-more:hover {
+  background-image: url(/images/show_more.gif);
+}
+
+.expand-toggle.show-less {
+  background-image: url(/images/show_less.png);
+}
+
+.expand-toggle.show-less:hover {
+  background-image: url(/images/show_less.gif);
+}
+
 .expandable.expanded {
   height: inherit;
 }

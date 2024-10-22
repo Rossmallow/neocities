@@ -38,4 +38,4 @@ I've been playing bass since April 2021. You can follow my music instagram here:
 
   Below are a few music-related links you might be interested in checking out.
 </section>
-<button class="expand-toggle" type="button">show more</button>
+<button class="expand-toggle show-more" type="button"></button>

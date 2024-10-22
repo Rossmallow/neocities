@@ -35,4 +35,4 @@ I may subscribe to increase my storage and/or start a new instagram specifically
 
   I'm still discovering my tastes and styles. I went to Central Camera in Chicago to buy some film and was convinced to give CineStill a try. It's attractive because it's actually a movie film that has been modified for photography. Because it's a movie film, people say it has a "cinematic" look and feel compared to other photography film stocks. When I was in Japan, I couldn't find any CineStill to replace my first roll but instead I found something called Marix which follows the same concept of a modified movie film. I much preferred the look of the Marix 800T to the CineStill 400. I'm looking forward to trying more film stocks like CineStill 800T and Portra to find what I like the best.
 </section>
-<button class="expand-toggle" type="button">show more</button>
+<button class="expand-toggle show-more" type="button"></button>
