@@ -53,15 +53,3 @@ draft: false
   - [Professional Site](https://www.rossnelson.me)
   - [Bass Instagram](https://www.instagram.com/rnelson2112)
 </section>
-
-<section>
-  <h3>Tutorial tools:</h3>
-  <div class="box-tutorial">Box</div>
-  <a href="https://www.youtube.com/watch?v=fYq5PXgSsbE">
-    <div class="flexbox-container-tutorial">
-      <div class="flexbox-item-tutorial flexbox-item-1-tutorial">Flexbox Item 1</div>
-      <div class="flexbox-item-tutorial flexbox-item-2-tutorial">Flexbox Item 2</div>
-      <div class="flexbox-item-tutorial flexbox-item-3-tutorial">Flexbox Item3</div>
-    </div>
-  </a>
-</section>
