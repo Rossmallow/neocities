@@ -33,6 +33,17 @@ a:visited, a:link {
   color: inherit;
 }
 
+a.point-up::before {
+  content: url(/images/arrow_up.gif);
+  position: relative;
+}
+
+a.point-down::before {
+  bottom: -1px;
+  content: url(/images/arrow_down.gif);
+  position: relative;
+}
+
 body {
   background-image: url(/images/smokeypurple.gif);
   color: var(--color2);
@@ -63,10 +74,9 @@ img {
 }
 
 li.new {
-  background-image: url(/images/new.gif);
-  background-position: left -2px;
+  background-image: url(/images/new_right.gif);
+  background-position: +77px;
   background-repeat: no-repeat;
-  padding-left: 32px;
 }
 
 /* Probably a better way of adding the arrow */

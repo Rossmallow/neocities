@@ -17,14 +17,14 @@
     {{ end }}
 
     {{ if ne $next "" }}
-      <a href="{{ $next }}">Next</a>
+      <a class="point-up" href="{{ $next }}" title="Next Album">Next</a>
     {{ else }}
-      <a>Next</a>
+      <a class="point-up">Next</a>
     {{ end }}
     {{ if ne $prev "" }}
-    <a href="{{ $prev }}">Previous</a>
+    <a class="point-down" href="{{ $prev }}" title="Previous Album">Previous</a>
     {{ else }}
-      <a>Previous</a>
+      <a class="point-down">Previous</a>
     {{ end }}
   </div>
   {{ .Content }}

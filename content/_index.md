@@ -16,8 +16,9 @@ draft: false
       <h3>To Do:</h3>
       <ul>
         <li>Add Home page content</li>
-        <li>Banner "ads"</li>
         <li>Finish About & Contact pages</li>
+        <li>Create Links page</li>
+        <li>Banner "ads"</li>
         <li>Try out fonts</li>
         <li>Create 404 page</li>
         <li>Automatically set images for features</li>
