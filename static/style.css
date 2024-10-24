@@ -191,6 +191,11 @@ li.new {
     font-size: small;
     margin: 0;
   }
+
+  p {
+    font-size: small;
+    margin: 0;
+  }
   
   section.flexbox-container {
     background-color: var(--color10);
