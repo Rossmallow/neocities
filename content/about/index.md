@@ -12,9 +12,9 @@ Ross is a DevOps Engineer at his day job and a hobbiest bassist and photographer
 He started playing bass in 2021 and started photography in 2024.
 
 ### Favorite Bands
-1. [Rush](https://www.rush.com)
-2. [tricot](https://tricot-official.jp)
-3. [TWRP](https://www.twrpband.com)
+1. <a href="https://rush.com"><img class="zoom" src="/buttons/rush.png" alt="Rush"></a>
+2. <a href="https://tricot-official.jp"><img class="zoom" src="/buttons/tricot.png" alt="tricot"></a>
+3. <a href="https://twrpband.com"><img class="zoom" src="/buttons/twrp.png" alt="twrp"></a>
 
 ### Links
 - [Professional Site](https://www.rossnelson.me)

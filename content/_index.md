@@ -19,11 +19,11 @@ draft: false
       <h3>To Do:</h3>
       <ul>
         <li>Finish About & Contact pages</li>
-        <li>Create Links page</li>
         <li>Banner "ads"</li>
         <li>Try out fonts</li>
         <li>Create 404 page</li>
         <li>Automatically set images for features</li>
+        <li class="line-through">Create Links page</li>
         <li class="line-through">Finish Home page</li>
         <li class="line-through">Find alternative image hosting for large images Edit: Can't be done with current content security policy</li>
         <li class="line-through">Make a "show more" button for longer paragraphs</li>
