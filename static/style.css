@@ -150,6 +150,16 @@ li.new {
   text-align: center;
 }
 
+.home.flexbox-container {
+  gap: 30px;
+  justify-content: space-between;
+
+  .flexbox-container {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
 .line-through {
   text-decoration: line-through;
 }
@@ -158,35 +168,34 @@ li.new {
   background-image: url(/images/note.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 298px;
-  width: 259px;
+  height: 316px;
+  width: 300px;
 
-  section {
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 60px;
+  padding-top: 30px;
+  padding-left: 40px;
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 0px;
+    width: 250px;
+  }
+  
+  ul {
+    line-height: 2em;
+    margin-top: 0.5em;
+    max-height: 13.5em;
+    overflow: hidden;
+    width: 180px;
     
-    h3 {
-      text-align: center;
+    li {
+      margin-bottom: 0.5em;
     }
-    
-    ul {
-      line-height: 1.5em;
-      max-height: 9em;
-      overflow: hidden;
-      padding-right: 13px;
-      
-      li {
-        margin-bottom: 0.5em;
-      }
-    }
-    
-    ul:hover {
-      overflow-y: scroll;
-      margin-right: -17px;
-      /*scrollbar-width: thin;*/
-      scrollbar-color: gray transparent;
-    }
+  }
+  
+  ul:hover {
+    overflow-y: scroll;
+    scrollbar-color: gray transparent;
+    width: 195px;
   }
 }
 
@@ -355,47 +364,3 @@ li.new {
   background-color: rgba(255, 192, 203, 0.226);
   outline: 3px solid rgba(255, 0, 0, 0.226);
 }*/
-
-
-/* Tutorials */
-.box-tutorial {
-  background-color: red;
-  border: 10px solid black;
-  height: 100px;
-  margin: 50px;
-  padding: 20px;
-  width: 100px;
-}
-
-.flexbox-container-tutorial {
-  align-items: center;
-  background-color: yellow;
-  display: flex;
-}
-
-.flexbox-item-tutorial {
-  background-color: #dfdfdf;
-  border: 3px solid #333;
-  color: black;
-  margin: 10px;
-  width: 200px;
-}
-
-.flexbox-item-1-tutorial {
-  align-self: flex-end;
-  flex-shrink: 0;
-  min-height: 100px;
-}
-
-.flexbox-item-2-tutorial {
-  align-self: center;
-  flex-basis: 0;
-  flex-grow: 2;
-  min-height: 200px;
-}
-
-.flexbox-item-3 {
-  flex-basis: 0;
-  flex-grow: 1;
-  min-height: 300px;
-}

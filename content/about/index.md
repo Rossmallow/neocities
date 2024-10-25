@@ -8,4 +8,14 @@ draft: false
 
 ## {{< param title >}}
 
-My name is Ross. This is my page!
+Ross is a DevOps Engineer at his day job and a hobbiest bassist and photographer.<br>
+He started playing bass in 2021 and started photography in 2024.
+
+### Favorite Bands
+1. [Rush](https://www.rush.com)
+2. [tricot](https://tricot-official.jp)
+3. [TWRP](https://www.twrpband.com)
+
+### Links
+- [Professional Site](https://www.rossnelson.me)
+- [Bass Instagram](https://www.instagram.com/rnelson2112)
