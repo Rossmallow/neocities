@@ -58,10 +58,18 @@ sections:
       creator: GameGrumps
       description: The Grumps are my favorite "Let's Play"-ers and this is a great game to watch them play. This moment especially had me laughing so hard that I almost choked on my ice cream.
       expandable:  False
-      id: featured-funny
+      id: ""
       image: /recommendations/gg_plateup.jpg
       title: Wiener Pies is back open! | Plate Up
       url: https://www.youtube.com/watch?v=1I4KGTDRbJ8&t=1238s
+    8:
+      creator: Portlandia
+      description: I've been getting Portlandia clips recommended to me more on YouTube. I never watched the show, but I've been a bit of a fan of Fred Armisen for a while. Some of my favorite bits from this clip are Jeff Goldblum saying "Really?" and "It's the classic scale."
+      expandable: False
+      id: featured-funny
+      image: /recommendations/doily.jpg
+      title: Portlandia - The Doily Shoppe
+      url: https://youtu.be/SFdq-8wwNeM?si=QNsUogVDHDauirWx
 
   2_inspired:
     1:
