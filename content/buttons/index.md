@@ -11,9 +11,29 @@ draft: false
     <h3>Links to other sites</h3>
     <div class="flexbox-container">
       <!-- Using an object tag, I can default to hotlinking to a site's button allowing the owner to update it, but by including an img tag inside I can fall back on a local image if the hotlink fails -->
+      <a class="zoom" href="https://www.cygnus-x1.net/links/rush/index.php">
+        <object>
+          <img src="/buttons/cygnus_x1.png" alt="Cygnus-X1.Net: A Tribute to Rush">
+        </object>
+      </a>
+      <a class="zoom" href="https://www.2112.net">
+        <object>
+          <img src="/buttons/2112.png" alt="2112.net">
+        </object>
+      </a>
+      <a class="zoom" href="https://www.rushisaband.com">
+        <object>
+          <img src="/buttons/rush_band.png" alt="Rush is a Band Blog">
+        </object>
+      </a>
       <a class="zoom" href="https://twelvemen.neocities.org/index.html">
         <object data="https://twelvemen.neocities.org/12men.gif" type="image/jpeg" alt="Twelve Men">
           <img src="/buttons/12men.gif" alt="Twelve Men">
+        </object>
+      </a>
+      <a class="zoom" href="https://dimden.dev/">
+        <object data="https://dimden.dev/services/images/88x31.gif" type="image/jpeg" alt="Neocreatives">
+          <img src="/buttons/dimden.gif" alt="dimden's hotel">
         </object>
       </a>
       <a class="zoom" href="https://99gifshop.neocities.org/">
@@ -29,11 +49,6 @@ draft: false
       <a class="zoom" href="https://neocreatives.neocities.org/">
         <object data="https://neocreatives.neocities.org/button.gif" type="image/jpeg" alt="Neocreatives">
           <img src="/buttons/neocreatives.gif" alt="Neocreatives">
-        </object>
-      </a>
-      <a class="zoom" href="https://dimden.dev/">
-        <object data="https://dimden.dev/services/images/88x31.gif" type="image/jpeg" alt="Neocreatives">
-          <img src="/buttons/dimden.gif" alt="dimden's hotel">
         </object>
       </a>
     </div>
