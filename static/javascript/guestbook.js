@@ -64,7 +64,7 @@ button.onclick = function() {
   var request = new XMLHttpRequest();
   request.open(
     'POST',
-    'https://discord.com/api/webhooks/1267673255397949471/Blj_yxH4ydEmS9Gbmo3MQBiujHJm9KPCeNrsR38vHlMADTl_EO4pI6yJDFUjLocfjZTR');
+    'https://discord.com/api/webhooks/xxx/XXX');
   request.setRequestHeader('Content-type', 'application/json');
 
   // When the request has been sent and gotten a response
