@@ -66,10 +66,17 @@ sections:
       creator: Portlandia
       description: I've been getting Portlandia clips recommended to me more on YouTube. I never watched the show, but I've been a bit of a fan of Fred Armisen for a while. Some of my favorite bits from this clip are Jeff Goldblum saying "Really?" and "It's the classic scale."
       expandable: False
-      id: featured-funny
+      id: ""
       image: /recommendations/doily.jpg
       title: Portlandia - The Doily Shoppe
       url: https://youtu.be/SFdq-8wwNeM?si=QNsUogVDHDauirWx
+    9:
+      creator: Limmy
+      description: Limmy's Show! is hilarious and I've been following Limmy from that. This clip from his Twitch steam had me laughing so hard. "I like this kid. He's got balls."
+      id: featured-funny
+      image: /recommendations/limmy.jpg
+      title:  Limmy's advice when facing God's judgement 
+      url: https://youtu.be/gL5CrxblRDg?si=cs8ye9XipaiySJcm
 
   2_inspired:
     1:
