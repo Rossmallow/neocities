@@ -41,4 +41,7 @@ Jetglo is classic and seems to be the most popular. This is the kind that Geddy 
 The other one that's in the running and which I think might be my favorite is the Walnut. The natural wood looks so cool. I love the white binding against the dark wood, and this is the only Ric that has a maple fingerboard like my Jazz bass. I'm not sure if the fingerboard wood makes a difference to the feel or sound, but I'm biased just because my favorite bass has a maple fingerboard. The downside with that though is that you can't see the cool white triangle inlays as well against the white maple wood.
 
 I think my decision might come down to whichever I can get my hands on first.
+
+10-05-2024 Update:
+I got my hands on a Walnut Ric!
 </section>
