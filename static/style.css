@@ -64,16 +64,6 @@ img {
   max-width: 100%;
 }
 
-li.new {
-  background-image: url(/images/new_right.gif);
-  background-position: +77px;
-  background-repeat: no-repeat;
-}
-
-/* Probably a better way of adding the arrow */
-/*li.new::before {
-  content: url(/images/new.gif);
-}*/
 
 /* Classes have a higher priority */
 .construction {
@@ -153,6 +143,15 @@ li.new {
 
 .line-through {
   text-decoration: line-through;
+}
+
+.new {
+  background-image: url(/images/new_right.gif);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding-right: 20px;
 }
 
 .note {
