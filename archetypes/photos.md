@@ -2,7 +2,7 @@
 title: {{ .File.ContentBaseName | title }}
 date: {{ .Date }}
 draft: false
-album_id: ""
+imgur_album_ids: [""]
 new: true
 ---
 

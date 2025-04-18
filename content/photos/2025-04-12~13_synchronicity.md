@@ -2,7 +2,7 @@
 title: 2025-04-12~13 (Synchronicity)
 date: 2025-04-14T22:30:49+09:00
 draft: false
-album_id: "V37FATd,KU6CFS5"
+imgur_album_ids: ["V37FATd", "KU6CFS5"]
 new: true
 ---
 
