@@ -23,7 +23,9 @@ draft: false
         <li>Try out fonts</li>
         <li>Create 404 page</li>
         <li>Automatically set images for features</li>
-        <li class="line-through">Create Links page</li>
+        <li>Create LinkTree-esq page</li>
+        <li>Separate Lists for Film & Digital Photos</li>
+        <li>Make all jpgs ~500KB to decrease load times</li>
         <li class="line-through">Finish Home page</li>
         <li class="line-through">Find alternative image hosting for large images Edit: Can't be done with current content security policy</li>
         <li class="line-through">Make a "show more" button for longer paragraphs</li>
