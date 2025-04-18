@@ -1,10 +1,13 @@
 <section id="sidebar-r" class="flexbox-container sidebar">
   <section class="flexbox-container">
-    <div class="flexbox-container">
-      <h3>Featured Funny</h3>
-      <a href="{{ relref . "/recommendations/#featured-funny" }}"><img class="zoom"
-          src="/recommendations/gg_rygar.jpg"></a>
-    </div>
+    {{ $recommendations := site.GetPage "section" "recommendations" }}
+    {{ $laughs := index ($recommendations.Params.sections) 0 }}
+    {{ $featured := index (where $laughs.entries "id" "featured-funny") 0 }}
+      <div class="flexbox-container">
+        <h3>Featured Funny</h3>
+        <a href="{{ relref . "/recommendations/#featured-funny" }}"><img class="zoom"
+          src="{{ $featured.image }}" alt="{{ $featured.title }}"></a>
+      </div>
   </section>
   <section class="flexbox-container">
     <div class="flexbox-container">
