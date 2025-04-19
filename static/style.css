@@ -330,6 +330,16 @@ img {
   padding: 0.5rem;
 }
 
+#photo-albums {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+
+  h3 {
+    text-align: center;
+  }
+}
+
 #recommendations {
   .flexbox-container {
     flex-wrap: wrap;

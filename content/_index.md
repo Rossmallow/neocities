@@ -24,8 +24,8 @@ draft: false
         <li>Banner "ads"</li>
         <li>Try out fonts</li>
         <li>Create LinkTree-esq page</li>
-        <li>Separate Lists for Film & Digital Photos</li>
         <li>Dynamically set image for featured photo</li>
+        <li class="line-through">Separate Lists for Film & Digital Photos</li>
         <li class="line-through">Finish Home page</li>
         <li class="line-through">Find alternative image hosting for large images Edit: Can't be done with current content security policy</li>
         <li class="line-through">Make a "show more" button for longer paragraphs</li>

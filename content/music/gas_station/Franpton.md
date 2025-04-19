@@ -14,7 +14,7 @@ I decided that while I was in Japan, I'd like to find a short-scale bass that wa
 
 I went to Reverb and found <a href="https://reverb.com/item/87072780-franpton-short-scale-jazz-1972-sunburst">this</a> interesting vintage Franpton short-scale Jazz bass which the seller thinks was made in around 1972.
 After reaching out on Reverb, I was invited by Danny, the seller, to stop by his workshop (which ended up being a room in his apartment filled with as many basses and parts as he could pack in. It was very cool to see) to check out the bass.
-After trying a few basses (including a medium-scale <a href="https://www.youtube.com/watch?v=sMaHjYJ5dEw">Fernandes</a> which I was really considering) I bought the Franpton at a discounted price of 50,000 JPY which was about $300 USD or so. A great deal for exactly what I was looking for, a made in Japan short-scale bass.
+After trying a few basses (including a medium-scale <a href="https://www.youtu.be/sMaHjYJ5dEw">Fernandes</a> which I was really considering) I bought the Franpton at a discounted price of 50,000 JPY which was about $300 USD or so. A great deal for exactly what I was looking for, a made in Japan short-scale bass.
 
 <section class="flexbox-container float-right">
   <section class="frame">

@@ -1,16 +1,55 @@
 {{ define "main" }}
 <section id="main">
   {{ .Content }}
-  <section>
-    <h3 id="{{ .Params.list_title }}">{{ .Params.list_title | title }}</h3>
-    <ul>
-      {{ range sort .Pages "Title" "desc" }}
-      <li>
-        <a href="{{ .RelPermalink }}"
-          class={{ cond ( .Params.new ) "new" "none" }}>{{ .Title }}</a>
-      </li>
+  <section id="photo-albums" class="flexbox-container">
+    {{ if (ne .Title "Digital") }}
+    {{ $film := site.GetPage "photos/film" }}
+    <section id="{{ $film.Params.list_title }}" class="flexbox-container">
+      <section class="frame">
+        <img src="/photos/miranda_left.jpg" alt="A Miranda Sensorex camera">
+        <p>My Miranda Sensorex Camera</p>
+      </section>
+      {{ if (ne .Title "Film") }}
+      <a href="{{ $film.RelPermalink }}">
+        <h3>{{ $film.Params.list_title | title }}</h3>
+      </a>
+      {{ else }}
+      <h3>{{ $film.Params.list_title | title }}</h3>
       {{ end }}
-    </ul>
+      <ul>
+        {{ range sort $film.Pages "Title" "desc" }}
+        <li>
+          <a href="{{ .RelPermalink }}"
+            class={{ cond ( .Params.new ) "new" "none" }}>{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+    {{ if (ne .Title "Film")}}
+    {{ $digital := site.GetPage "photos/digital" }}
+    <section id="{{ $digital.Params.list_title }}" class="flexbox-container">
+      <section class="frame">
+        <img src="/photos/fujifilm_right.jpg" alt="A Fujifilm X-T10 camera">
+        <p>My Fujifilm X-T10 Camera</p>
+      </section>
+      {{ if (ne .Title "Digital")}}
+      <a href="{{ $digital.RelPermalink }}">
+        <h3>{{ $digital.Params.list_title | title }}</h3>
+      </a>
+      {{ else }}
+      <h3>{{ $digital.Params.list_title | title }}</h3>
+      {{ end }}
+      <ul>
+        {{ range sort $digital.Pages "Title" "desc" }}
+        <li>
+          <a href="{{ .RelPermalink }}"
+            class={{ cond ( .Params.new ) "new" "none" }}>{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
   </section>
 </section>
 {{ end }}
