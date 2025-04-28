@@ -6,4 +6,4 @@ imgur_album_ids: [""]
 new: true
 ---
 
-## {{< param title >}}
+<h2 id="title">{{< param title >}}</h2>

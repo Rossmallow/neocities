@@ -28,9 +28,13 @@
     {{ end }}
   </div>
   {{ .Content }}
-  {{ range .Params.imgur_album_ids }}
-  <a hidden href="https://imgur.com/a/{{ . }}">Imgur Album</a>
-  {{ end }}
+  <ul id="imgur" class="flexbox-container">
+    {{ range .Params.imgur_album_ids }}
+    <li>
+      <a href="https://imgur.com/a/{{ . }}">Imgur Album {{ . }}</a>
+    </li>
+    {{ end }}
+  </ul>
   <section class="flexbox-container">
     {{ $path := .Path }}
     {{ $filepath := printf "static%s" $path }}
@@ -42,5 +46,6 @@
   <p hidden id="album_id" >{{ .Params.album_id }}</p>
   <script type="module" src="/javascript/photos.js"></script>
   -->
+  <script src="/javascript/imgur.js"></script>
 </section>
 {{ end }}

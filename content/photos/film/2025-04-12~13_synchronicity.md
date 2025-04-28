@@ -6,7 +6,7 @@ imgur_album_ids: ["V37FATd", "KU6CFS5"]
 new: true
 ---
 
-## {{< param title >}}
+<h2 id="title">{{< param title >}}</h2>
 
 Photos taken over the course of two days at Synchronicity 2025.
 The photos are spread across 2 rolls of film. One for each day.<br>

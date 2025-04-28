@@ -321,6 +321,12 @@ img {
   color: var(--color5);
 }
 
+#imgur {
+  display: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 #main {
   background-color: var(--color10);
   border: 3px dotted var(--color3);
