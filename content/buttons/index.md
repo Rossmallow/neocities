@@ -13,7 +13,7 @@ draft: false
       <!-- Using an object tag, I can default to hotlinking to a site's button allowing the owner to update it, but by including an img tag inside I can fall back on a local image if the hotlink fails -->
       <a class="zoom" href="https://www.cygnus-x1.net/links/rush/index.php">
         <object>
-          <img src="/buttons/cygnus_x1.png" alt="Cygnus-X1.Net: A Tribute to Rush">
+          <img src="/buttons/cygnusx1.png" alt="Cygnus-X1.Net: A Tribute to Rush">
         </object>
       </a>
       <a class="zoom" href="https://www.2112.net">
@@ -49,6 +49,16 @@ draft: false
       <a class="zoom" href="https://neocreatives.neocities.org/">
         <object data="https://neocreatives.neocities.org/button.gif" type="image/jpeg" alt="Neocreatives">
           <img src="/buttons/neocreatives.gif" alt="Neocreatives">
+        </object>
+      </a>
+      <a class="zoom" href="https://bmh.neocities.org/">
+        <object data="https://bmh.neocities.org/buttons/bmhonline_button.gif" type="image/jpeg" alt="BMH Online">
+          <img src="/buttons/bmhonline.png" alt="BMH Online">
+        </object>
+      </a>
+      <a class="zoom" href="https://gamera.neocities.org/">
+        <object data="https://files.catbox.moe/vql8cc.gif" type="image/jpeg" alt="Gamera">
+          <img src="/buttons/gamera.png" alt="Gamera">
         </object>
       </a>
     </div>
