@@ -5,9 +5,8 @@ let imgur_hidden = true;
 let title = document.getElementById('title');
 
 title.onclick = function() {
-    if (click_count <= reveal_clicks) {
-        click_count++;
-    } else {
+    click_count++;
+    if (click_count >= reveal_clicks) {
         click_count = 0;
         if (imgur_hidden) {
             imgur_list.style.display = 'flex';
