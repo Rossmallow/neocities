@@ -3,7 +3,7 @@ title: 2025-05-11 (East of Tokyo)
 date: 2025-05-17T13:51:06+09:00
 draft: false
 imgur_album_ids: ["UcOasEF"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>

@@ -3,7 +3,7 @@ title: 2025-05-03~11 (Kawagoe & East of Tokyo)
 date: 2025-05-17T13:37:05+09:00
 draft: false
 imgur_album_ids: ["iiFA83m"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>
