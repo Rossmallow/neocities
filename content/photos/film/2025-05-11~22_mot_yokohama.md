@@ -1,5 +1,5 @@
 ---
-title: 2025-05-11~22 (East of Tokyo, MOT, & Yokohama)
+title: 2025-05-11~22 (MOT & Yokohama)
 date: 2025-05-26T18:12:30+09:00
 draft: false
 imgur_album_ids: ["RYlzWeQ"]
