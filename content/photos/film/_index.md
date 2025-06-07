@@ -31,3 +31,8 @@ list_title: film albums
   <img src="/photos/film_stock.jpg" alt="Boxes of various film stocks">
   <p>Film stocks that I like</p>
 </section>
+
+<section class="frame">
+  <img src="/photos/kitamura.jpg" alt="Storefront of Kitamura Camera in Shinjuku">
+  <p>My favorite camera store in Tokyo</p>
+</section>
