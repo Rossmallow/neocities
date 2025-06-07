@@ -35,7 +35,7 @@
     </li>
     {{ end }}
   </ul>
-  <section class="flexbox-container">
+  <section id="photos" class="flexbox-container">
     {{ $path := .Path }}
     {{ $filepath := printf "static%s" $path }}
     {{ range readDir $filepath }}
