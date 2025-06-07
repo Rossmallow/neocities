@@ -28,11 +28,11 @@ list_title: film albums
 <button class="expand-toggle show-more" type="button"></button>
 
 <section class="frame">
-  <img src="/photos/film_stock.jpg" alt="Boxes of various film stocks">
+  <img src="/photos/film_stock.webp" alt="Boxes of various film stocks">
   <p>Film stocks that I like</p>
 </section>
 
 <section class="frame">
-  <img src="/photos/kitamura.jpg" alt="Storefront of Kitamura Camera in Shinjuku">
+  <img src="/photos/kitamura.webp" alt="Storefront of Kitamura Camera in Shinjuku">
   <p>My favorite camera store in Tokyo</p>
 </section>

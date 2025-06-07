@@ -12,16 +12,16 @@ Welcome to the GAS (Gear Aquisition Syndrome) Station.
 This is a place where I will post and write about music gear that I have collected.
 
 <section class="flexbox-container frame">
-  <img src="/music/gl_jazz.jpg" alt="A black Fender jazz bass with a white pick guard and black block inlays on a maple neck">
+  <img src="/music/gl_jazz.webp" alt="A black Fender jazz bass with a white pick guard and black block inlays on a maple neck">
   <p>This is my #1<br>2020 MIM Geddy Lee Jazz</p>
 </section>
 
 <section class="flexbox-container frame">
-  <img src="/music/sterling_ray4.jpg" alt="A sparkling purple Sterling Ray4 bass">
+  <img src="/music/sterling_ray4.webp" alt="A sparkling purple Sterling Ray4 bass">
   <p>2022 Purple Sparkle Sterling Ray4</p>
 </section>
 
 <section class="flexbox-container frame">
-  <img src="/music/collection.jpg" alt="A collection of various bass guitars, amplifiers, and effect pedals">
+  <img src="/music/collection.webp" alt="A collection of various bass guitars, amplifiers, and effect pedals">
   <p>My main basses, amps, and pedal board</p>
 </section>

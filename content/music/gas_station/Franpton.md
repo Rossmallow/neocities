@@ -18,7 +18,7 @@ After trying a few basses (including a medium-scale <a href="https://www.youtu.b
 
 <section class="flexbox-container float-right">
   <section class="frame">
-    <img src="/music/franpton.jpg" alt="Franpton Jazz Bass c.1972">
+    <img src="/music/franpton.webp" alt="Franpton Jazz Bass c.1972">
     <p>Franpton Jazz Bass c.1972</p>
   </section>
 </section>

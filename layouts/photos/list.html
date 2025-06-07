@@ -6,7 +6,7 @@
     {{ $film := site.GetPage "photos/film" }}
     <section id="{{ $film.Params.list_title }}" class="flexbox-container">
       <section class="frame">
-        <img src="/photos/miranda_left.jpg" alt="A Miranda Sensorex camera">
+        <img src="/photos/miranda_left.webp" alt="A Miranda Sensorex camera">
         <p>My Miranda Sensorex Camera</p>
       </section>
       {{ if (ne .Title "Film") }}
@@ -30,7 +30,7 @@
     {{ $digital := site.GetPage "photos/digital" }}
     <section id="{{ $digital.Params.list_title }}" class="flexbox-container">
       <section class="frame">
-        <img src="/photos/fujifilm_right.jpg" alt="A Fujifilm X-T10 camera">
+        <img src="/photos/fujifilm_right.webp" alt="A Fujifilm X-T10 camera">
         <p>My Fujifilm X-T10 Camera</p>
       </section>
       {{ if (ne .Title "Digital")}}

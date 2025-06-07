@@ -17,11 +17,11 @@ I fought off that G.A.S. but after playing a beautiful vintage Autumnglo 4001 at
 
 <section class="flexbox-container float-right">
   <section class="frame">
-    <img src="/music/4003_matte.jpg" alt="Rickenbacker 4003 in Matte Black">
+    <img src="/music/4003_matte.webp" alt="Rickenbacker 4003 in Matte Black">
     <p>Rickenbacker 4003 in Matte Black</br>(Not jetglo but close enough)</p>
   </section>
   <section class="frame">
-    <img src="/music/4003w.jpg" alt="Rickenbacker 4003 in Walnut">
+    <img src="/music/4003w.webp" alt="Rickenbacker 4003 in Walnut">
     <p>Rickenbacker 4003 in Walnut</p>
   </section>
 </section>

@@ -23,6 +23,6 @@ I'm not so sure if the deal on the lens is as good as the one on the body, but t
 <button class="expand-toggle show-more" type="button"></button>
 
 <section class="frame">
-  <img src="/photos/cameras.jpg" alt="A Miranda Sensorex nex to a Fujifilm X-T10">
+  <img src="/photos/cameras.webp" alt="A Miranda Sensorex next to a Fujifilm X-T10">
   <p>The X-T10 is much smaller and ligher than my Miranda</p>
 </section>

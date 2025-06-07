@@ -16,7 +16,7 @@ I've been playing bass since April 2021. You can follow my music instagram here:
 
 <section class="flexbox-container float-right">
   <section class="frame">
-    <img src="/music/westone_spectrum.jpg" alt="A Black Westone Spectrum ST Bass">
+    <img src="/music/westone_spectrum.webp" alt="A Black Westone Spectrum ST Bass">
     <p>My First Bass<br>Westone Spectrum ST</p>
   </section>
 </section>
