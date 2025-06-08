@@ -1,5 +1,5 @@
 ---
-title: 2025-06-08_ikebukuro
+title: 2025-06-08 (Ikebukuro)
 date: 2025-06-09T00:37:43+09:00
 draft: false
 imgur_album_ids: ["72TiMKw"]
