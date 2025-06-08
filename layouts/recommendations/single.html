@@ -8,7 +8,7 @@
       <section class="{{ .name }} flexbox-container">
         {{ range .entries }}
           <div id="{{ .id }}" class="flexbox-container {{ .class }}">
-            <a href="{{ .url }}"><img class="zoom" src="{{ .image }}" alt="{{ .title }} - {{ .creator }}" title="{{ .title }} - {{ .creator }}"></a>
+            <a href="{{ .url }}"><img class="zoom" src="{{ .image }}" alt="{{ .title }} - {{ .creator }}" title="{{ .title }} - {{ .creator }}" loading="lazy"></a>
             {{ if .expandable }}
             <p class="expandable shrunk">{{ .description }}</p>
             <button class="expand-toggle show-more" type="button"></button>
