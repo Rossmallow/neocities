@@ -19,7 +19,7 @@ draft: false
       <h3>To Do:</h3>
       <ul>
         <li>Finish About & Contact pages</li>
-        <li>Make all jpgs ~500KB to decrease load times</li>
+        <li>Turn all jpgs into webp format</li>
         <li>Create 404 page</li>
         <li>Banner "ads"</li>
         <li>Try out fonts</li>
