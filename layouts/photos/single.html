@@ -37,15 +37,10 @@
   </ul>
   <section id="photos" class="flexbox-container">
     {{ $path := .Path }}
-    {{ $filepath := printf "static%s" $path }}
-    {{ range readDir $filepath }}
+    {{ range .Resources }}
       <a href="{{ $path }}/{{ .Name }}"><img id="{{ .Name }}" class="zoom element" src="{{ $path }}/{{ .Name }}" alt="{{ .Name }}" title="{{replace .Name ".webp" " " | title }}" loading="lazy"></a>
     {{ end }}
   </section>
-  <!-- Commenting this out because it doesn't work due to Neocities' Content Security Policy
-  <p hidden id="album_id" >{{ .Params.album_id }}</p>
-  <script type="module" src="/javascript/photos.js"></script>
-  -->
   <script src="/javascript/imgur.js"></script>
 </section>
 {{ end }}
