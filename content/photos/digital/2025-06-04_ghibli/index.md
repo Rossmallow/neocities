@@ -3,7 +3,7 @@ title: 2025-06-04 (Ghibli Museum)
 date: 2025-06-04T21:18:16+09:00
 draft: false
 imgur_album_ids: ["bzH59lW"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>

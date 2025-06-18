@@ -3,7 +3,7 @@ title: 2025-06-06~08 (Polysics)
 date: 2025-06-09T00:19:39+09:00
 draft: false
 imgur_album_ids: ["Z6Sqv0b"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>

@@ -1,5 +1,5 @@
 ---
-title: 2025-06-14_hiroshima
+title: 2025-06-14 (Hiroshima)
 date: 2025-06-17T16:49:05+09:00
 draft: false
 imgur_album_ids: ["XUKAFYC", "UgYACfF"]

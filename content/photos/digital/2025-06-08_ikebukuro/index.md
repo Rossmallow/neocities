@@ -3,7 +3,7 @@ title: 2025-06-08 (Ikebukuro)
 date: 2025-06-09T00:37:43+09:00
 draft: false
 imgur_album_ids: ["72TiMKw"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>
