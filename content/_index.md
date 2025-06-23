@@ -26,6 +26,7 @@ draft: false
         <li>Create LinkTree-esq page</li>
         <li>Dynamically set image for featured photo</li>
         <li>Make pages for photos to be viewed individually</li>
+        <li>Add some animated elements</li>
         <li class="line-through">Separate Lists for Film & Digital Photos</li>
         <li class="line-through">Finish Home page</li>
         <li class="line-through">Find alternative image hosting for large images Edit: Can't be done with current content security policy</li>
