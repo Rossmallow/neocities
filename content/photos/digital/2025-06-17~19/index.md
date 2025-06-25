@@ -7,3 +7,5 @@ new: true
 ---
 
 <h2 id="title">{{< param title >}}</h2>
+
+Some more photos from around Tokyo and Saitama.
