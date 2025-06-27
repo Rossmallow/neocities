@@ -2,7 +2,7 @@
 title: 2025-06-22~26 (Hanoi)
 date: 2025-06-26T02:18:38+09:00
 draft: false
-imgur_album_ids: ["", ""]
+imgur_album_ids: ["r5WYnop", "QqAL2MQ"]
 new: true
 ---
 
