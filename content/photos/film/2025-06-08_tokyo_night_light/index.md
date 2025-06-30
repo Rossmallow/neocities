@@ -3,7 +3,7 @@ title: 2025-06-08 (Tokyo Night & Light)
 date: 2025-06-11T14:26:56+09:00
 draft: false
 imgur_album_ids: ["gGEKCMl"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>

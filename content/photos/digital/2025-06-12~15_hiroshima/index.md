@@ -3,7 +3,7 @@ title: 2025-06-12~15 (Hiroshima)
 date: 2025-06-17T16:48:08+09:00
 draft: false
 imgur_album_ids: ["kd3v0gX", "Hmd5EcI"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>
