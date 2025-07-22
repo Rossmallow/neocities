@@ -3,7 +3,7 @@ title: 2025-06-26~29
 date: 2025-06-30T16:54:48-05:00
 draft: false
 imgur_album_ids: ["D6haoia"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>

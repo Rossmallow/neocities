@@ -3,7 +3,7 @@ title: 2025-06-21~22 (Ho Chi Minh City)
 date: 2025-06-24T00:06:27+09:00
 draft: false
 imgur_album_ids: ["MVMbVfL"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>
