@@ -77,7 +77,7 @@ sections:
         url: https://youtu.be/7O8-sQ01qlg?t=1774s
       - creator: Brent Weinbach
         description: This was a funny special. Especially this joke.
-        id: featured-funny
+        id: ""
         image: /recommendations/popularculture.webp
         title: POPULAR CULTURE
         url: https://youtu.be/9pms_xTDtVc?t=577
@@ -87,6 +87,18 @@ sections:
         image: /recommendations/rehearsal.webp
         title: The Rehearsal Season 2 Episode 3 - Pilot's Code
         url: https://youtu.be/AQtYnkV4in0
+      - creator: Sbassbear
+        description: This is a playlist of remixes of GameGrumps improv songs that always make me laugh until I cry.
+        id: featured-funny
+        image: /recommendations/sbassbear.webp
+        title: Sbassbear Game Grumps Remixes
+        url: https://www.youtube.com/playlist?list=PLGNfEnYREb173VybnZ60rVwPO-Ee_T_yB
+      - creator: MBMBaM/Fraser Connel
+        description: This is a great animation of a hilarious bit by the McElroy Brothers that really gets me.
+        id: ""
+        image: /recommendations/mbmbam.webp
+        title: How to Buy Underwear | MBMBamM Animation
+        url: https://youtu.be/3REC4mlHk8o
 
   - name: inspired
     entries:
