@@ -2,7 +2,7 @@
 title: 2024-07 (Japan)
 date: 2024-07-19T08:37:29-05:00
 draft: false
-imgur_album_ids: ["k738bXW", "SYPopH5", "MTDckIx"]
+imgur_album_ids: ["k738bXW", "SYPopH5", "MTDckIx", "Yj9F1eo", "JjzejWp"]
 new: false
 ---
 
