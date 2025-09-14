@@ -391,6 +391,18 @@ img {
   }
 }
 
+#zine .frame {
+  flex-direction: row;
+
+  a {
+    width: 30%;
+  }
+
+  p {
+    align-self:center;
+  }
+}
+
 /* Media Options */
 @media screen and (max-width: 1070px) {
   #header {
