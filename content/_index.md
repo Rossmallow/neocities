@@ -19,7 +19,6 @@ draft: false
       <h3>To Do:</h3>
       <ul>
         <li>Finish About & Contact pages</li>
-        <li>Turn all jpgs into webp format</li>
         <li>Create 404 page</li>
         <li>Banner "ads"</li>
         <li>Try out fonts</li>
@@ -27,6 +26,7 @@ draft: false
         <li>Dynamically set image for featured photo</li>
         <li>Make pages for photos to be viewed individually</li>
         <li>Add some animated elements</li>
+        <li class="line-through">Turn all jpgs into webp format</li>
         <li class="line-through">Separate Lists for Film & Digital Photos</li>
         <li class="line-through">Finish Home page</li>
         <li class="line-through">Find alternative image hosting for large images Edit: Can't be done with current content security policy</li>
