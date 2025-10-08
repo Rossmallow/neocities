@@ -1,5 +1,5 @@
 ---
-title: 2025-09-27_cinestill_photo_walk
+title: 2025-09-27 (CineStill Photo Walk)
 date: 2025-09-27T18:08:52-05:00
 draft: false
 imgur_album_ids: ["xuRixf5"]
