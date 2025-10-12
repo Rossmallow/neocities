@@ -35,4 +35,11 @@ list_title: film albums
 <section class="frame">
   <img src="/photos/kitamura.webp" alt="Storefront of Kitamura Camera in Shinjuku">
   <p>My favorite camera store in Tokyo</p>
+  <p>Shot on Fujifilm Superia Premium 400</p>
+</section>
+
+<section class="frame">
+  <img src="/photos/central_camera.webp" alt="Storefront of Central Camera Co. in Chicago">
+  <p>My favorite camera store in Chicago</p>
+  <p>Shot on Fuji 400</p>
 </section>
