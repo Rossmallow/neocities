@@ -89,7 +89,7 @@ sections:
         url: https://youtu.be/AQtYnkV4in0
       - creator: Sbassbear
         description: This is a playlist of remixes of GameGrumps improv songs that always make me laugh until I cry.
-        id: featured-funny
+        id: ""
         image: /recommendations/sbassbear.webp
         title: Sbassbear Game Grumps Remixes
         url: https://www.youtube.com/playlist?list=PLGNfEnYREb173VybnZ60rVwPO-Ee_T_yB
@@ -99,6 +99,12 @@ sections:
         image: /recommendations/mbmbam.webp
         title: How to Buy Underwear | MBMBamM Animation
         url: https://youtu.be/3REC4mlHk8o
+      - creator: Mega64
+        description: I keep coming back to this video. It's just absurd.
+        id: featured-funny
+        image: /recommendations/sewer.webp
+        title:  30 Minutes Of Sewer Footage (4K) 
+        url: https://youtu.be/Qe-VrklTutw
 
   - name: inspired
     entries:
