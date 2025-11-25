@@ -26,6 +26,16 @@ draft: false
           <img src="/buttons/rush_band.png" alt="Rush is a Band Blog">
         </object>
       </a>
+      <a class="zoom" href="https://nirvannathebandthe.show">
+        <object>
+          <img src="/buttons/ntbtstw.png" alt="Nirvanna the Band the Show the Website">
+        </object>
+      </a>
+      <a class="zoom" href="https://gamera.neocities.org">
+        <object data="https://files.catbox.moe/vql8cc.gif" type="image/jpeg" alt="Gamera">
+          <img src="/buttons/gamera.png" alt="Gamera">
+        </object>
+      </a>
       <a class="zoom" href="https://twelvemen.neocities.org/index.html">
         <object data="https://twelvemen.neocities.org/12men.gif" type="image/jpeg" alt="Twelve Men">
           <img src="/buttons/12men.gif" alt="Twelve Men">
@@ -54,11 +64,6 @@ draft: false
       <a class="zoom" href="https://bmh.neocities.org/">
         <object data="https://bmh.neocities.org/buttons/bmhonline_button.gif" type="image/jpeg" alt="BMH Online">
           <img src="/buttons/bmhonline.png" alt="BMH Online">
-        </object>
-      </a>
-      <a class="zoom" href="https://gamera.neocities.org/">
-        <object data="https://files.catbox.moe/vql8cc.gif" type="image/jpeg" alt="Gamera">
-          <img src="/buttons/gamera.png" alt="Gamera">
         </object>
       </a>
     </div>
