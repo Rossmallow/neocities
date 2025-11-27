@@ -3,7 +3,7 @@ title: 2025-09-24 (Downtown Chicago)
 date: 2025-09-24T20:22:40-05:00
 draft: false
 imgur_album_ids: ["V4GOQxv"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>

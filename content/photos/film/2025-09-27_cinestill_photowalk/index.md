@@ -3,7 +3,7 @@ title: 2025-09-27 (CineStill Photowalk)
 date: 2025-10-11T19:48:01-05:00
 draft: false
 imgur_album_ids: ["K7EDgKc"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>
