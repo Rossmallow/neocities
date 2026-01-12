@@ -20,3 +20,5 @@ Sharpness : +1 (Medium -Hard)<br>
 Noise Reduction: -2 (Low)<br>
 ISO: Auto, up to ISO 6400<br>
 </p>
+
+Check out my film photos from the same day: <a href="/photos/film/2025-11-23_waterfall_glen">2025-11-23 (Waterfall Glen)</a>
