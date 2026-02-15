@@ -108,13 +108,20 @@ sections:
 
   - name: inspired
     entries:
-      - creator: deeper sleeper
+      - creator: deeper sleeper & KOGAN
         description: I love this animation and music individually, but in combination they play off of each other really well. The agressive and distorted drums with the bouncy bass set the foundation for the melodic second bass track and the tragic vocals with heavy reverb on all elements. The animation feels like something from MTV with all the movement and being hand drawn. Stepping through frame by frame, it's easy to tell that each element is hand drawn and reveals a lot of details of how things rotate and morph into each other. It's all very impressive.
         expandable: True
         id: ""
         image: /recommendations/maggieswaltz.webp
         title: Maggie's Waltz
-        url: https://youtu.be/kRxxZcbF4m8?si=z3LysM7QRuEptdiz
+        url: https://youtu.be/kRxxZcbF4m8
+      - creator: Angine de Poitrine
+        description: I just discovered this band, as it appears many have, through this video. When I saw the double-neck I thought this might be a secret side-project of Crown Lands, another Canadian prog duo. It's not them but they're both certainly excellent bands. I love everything about this performance from the costumes, to the footwork with the pedals, to the microtonal double-neck guitar, to the music itself. I saw one comment on the video that said they went out of their way to make their set as difficult as possible to play which I believe to be true, and you can tell by watching the video that they've spent hundreds of hours practicing in order to get that live performance as tight as it is which is really incredible - and inspiring to me.
+        expandable: True
+        id: ""
+        image: /recommendations/angine.webp
+        title: Angine de Poitrine - Full Performance (Live on KEXP)
+        url: https://youtu.be/0Ssi-9wS1so
 ---
 
 ## {{< param title >}}
