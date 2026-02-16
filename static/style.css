@@ -250,6 +250,42 @@ img {
 }
 
 /* IDs take highest priority */
+#bass-covers {
+
+  margin-bottom: 1em;
+
+  .flexbox-container {
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    flex-direction: row;
+    
+    div {
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%; /* Determines how many videos per row */
+      
+      h4 {
+        margin-bottom: -10px;
+      }
+
+      iframe {
+        aspect-ratio: 16/9;
+      }
+      
+      p {
+        margin: 0px;
+      }
+
+      .flexbox-container {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%
+      }
+    }
+  }
+}
+
 #buttons {
   section.flexbox-container {
     button {
