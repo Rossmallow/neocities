@@ -104,7 +104,7 @@ img {
 }
 
 .expandable.shrunk {
-  height: 8em;
+  height: 8rem;
   overflow: hidden;
   background-image: -webkit-linear-gradient(var(--color2), transparent);
   -webkit-background-clip: text;
@@ -171,13 +171,13 @@ img {
   }
   
   ul {
-    line-height: 2em;
-    max-height: 12.5em;
+    line-height: 2rem;
+    max-height: 12.5rem;
     overflow: hidden;
     width: 185px;
     
     li {
-      margin-bottom: 0.5em;
+      margin-bottom: 0.5rem;
     }
   }
   
@@ -210,16 +210,16 @@ img {
     background-color: var(--color10);
     border: 3px dotted var(--color3);
     flex-basis: 0;
-    gap: 1em;
+    gap: 1rem;
     justify-content: flex-start;
     min-width: 100%;
     
     div.flexbox-container {
       align-items: center;
-      gap: 0.5em;
+      gap: 0.5rem;
       justify-content: space-around;
-      padding: 0.25em;
-      padding-bottom: 0.5em;
+      padding: 0.25rem;
+      padding-bottom: 0.5rem;
       
       div.realtimeuserscounter {
         text-align: center;
@@ -251,12 +251,12 @@ img {
 
 /* IDs take highest priority */
 #bass-covers {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 
   .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 1em;
+    gap: 1rem;
     justify-items: center;
 
     div {
@@ -269,7 +269,7 @@ img {
 
       .flexbox-container {
         flex-direction: row;
-        gap: 1em;
+        gap: 1rem;
         justify-content: center;
         width: 100%
       }
@@ -399,7 +399,7 @@ img {
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 1em;
+      gap: 1rem;
       justify-items: center;
 
       div {
@@ -421,9 +421,9 @@ img {
 
 #sidebar-l {
   section.flexbox-container:first-child {
-    line-height: 1.5em;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
+    line-height: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
   }
 }
 
@@ -452,7 +452,7 @@ img {
       position: absolute;
       right: 0px;
       width: 88px;
-      margin: 1em;
+      margin: 1rem;
     }
   }
 }
