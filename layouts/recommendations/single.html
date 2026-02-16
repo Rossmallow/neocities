@@ -5,7 +5,7 @@
     <section class="flexbox-container">
     {{ range .Params.sections }}
       <h3>{{ .name | title}}</h3>
-      <section class="{{ .name }} flexbox-container">
+      <section class="{{ .name }} grid">
         {{ range .entries }}
           <div id="{{ .id }}" class="flexbox-container {{ .class }}">
             <a href="{{ .url }}"><img class="zoom" src="{{ .image }}" alt="{{ .title }} - {{ .creator }}" title="{{ .title }} - {{ .creator }}" loading="lazy"></a>

@@ -2,11 +2,13 @@
 <section id="main">
   <section id="bass-covers">
     {{ .Content }}
-    <section class="flexbox-container">
+    <section class="grid">
       {{ range sort .Params.entries "upload_date" "desc" }}
         <div id="{{ .id }}" class="flexbox-container {{ .class }}">
           <h4>{{ .title }} - {{ .original_artist }}</h4>
-          <iframe src="https://www.youtube-nocookie.com/embed/{{ .yt_id }}" title="{{ .title }} - {{ .original_artist }}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+          <div id="video">
+            <iframe src="https://www.youtube-nocookie.com/embed/{{ .yt_id }}" title="{{ .title }} - {{ .original_artist }}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+          </div>
           <div class="flexbox-container">
             <a href="https://youtu.be/{{ .yt_id }}">YouTube upload</a>
             <a href="https://www.instagram.com/p/{{ .ig_id }}">Instagram upload</a>

@@ -251,36 +251,36 @@ img {
 
 /* IDs take highest priority */
 #bass-covers {
-
   margin-bottom: 1em;
 
-  .flexbox-container {
-    align-content: center;
-    flex-wrap: wrap;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     gap: 1em;
-    flex-direction: row;
-    
+    justify-items: center;
+
     div {
       flex-direction: column;
       justify-content: flex-start;
-      width: 100%; /* Determines how many videos per row */
-      
-      h4 {
-        margin-bottom: -10px;
-      }
 
-      iframe {
-        aspect-ratio: 16/9;
-      }
-      
-      p {
-        margin: 0px;
+      h4 {
+        margin-bottom: 0px;
       }
 
       .flexbox-container {
         flex-direction: row;
+        gap: 1em;
         justify-content: center;
         width: 100%
+      }
+
+      #video {
+        width: 100%;
+
+        iframe {
+          aspect-ratio: 16/9;
+          width: 100%;
+        }
       }
     }
   }
@@ -396,13 +396,13 @@ img {
       text-align: center;
     }
 
-    .flexbox-container {
-      flex-direction: row;
-      
-      div {
-        flex-direction: column;
-        width: 33%;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1em;
+      justify-items: center;
 
+      div {
         a {
           align-self: center;
 
