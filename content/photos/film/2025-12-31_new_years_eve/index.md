@@ -3,7 +3,7 @@ title: 2025-12-31 (New Year's Eve)
 date: 2026-02-10T12:56:58-06:00
 draft: false
 imgur_album_ids: ["P8ydyZR"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>
