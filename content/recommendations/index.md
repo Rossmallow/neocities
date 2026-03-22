@@ -101,10 +101,16 @@ sections:
         url: https://youtu.be/3REC4mlHk8o
       - creator: Mega64
         description: I keep coming back to this video. It's just absurd.
-        id: featured-funny
+        id: ""
         image: /recommendations/sewer.webp
-        title:  30 Minutes Of Sewer Footage (4K) 
+        title: 30 Minutes Of Sewer Footage (4K) 
         url: https://youtu.be/Qe-VrklTutw
+      - creator: Husk IRL
+        description: Click click click all the way to 65.
+        id: featured-funny
+        image: /recommendations/huskirl.webp
+        title: AI vs The World’s Hardest CAPTCHA
+        url: https://youtu.be/swBvMjJdcAM?t=885
 
   - name: inspired
     entries:
