@@ -14,8 +14,8 @@ I have been following <a href="https://www.instagram.com/izzyfts/">izzyfts</a> o
 <p>
 Dynamic Range: DR400<br>
 Film Simulation: Classic Chrome<br>
-White Balance: 6300K, -3 Red & -2 Blue
-Color: -2 (Low)
+White Balance: 6300K, -3 Red & -2 Blue<br>
+Color: -2 (Low)<br>
 Sharpness: -1 (Medium Soft)<br>
 Highlight: +1 (Medium Hard)<br>
 Shadow: +1 (Medium Hard)<br>
