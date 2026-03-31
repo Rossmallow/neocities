@@ -8,6 +8,7 @@ new: true
 
 <h2 id="title">{{< param title >}}</h2>
 
+<section class="expandable shrunk">
 My friend Will, who I played with in School of Rock, is now in a band called The Cessna. I was invited to their first show at Bookclub Chicago. Usually I'm not very excited to go and stay out late on a week night, but I was looking forward to this show so I wasn't really feeling that this time.
 When I got to Bookclub, I met my friends and felt very welcome. I usually don't feel very comfortable in music venues, but I did here. They were playing Godzilla movies on the TV behind the bar too which I loved.
 Earlier this week I thought I'd like to get into concert photography more. Since I like music and I like taking photos, it seems like an obvious choice.
@@ -26,3 +27,5 @@ One thing I tried doing that I think I was successful at was lowering the shutte
 I do want to try this technique with a flash too. I saw a video online where I think they had the flash set to second shutter so the photographer first aimed the camera at some lights, then moved the camera to the subject, and the flash before the second shutter gave enough light to make sure the subject was clearly visible in the final photo. I suppose that would work in reverse too by starting on the subject with a flash and then moving away.
 
 Overall, I'm happy with these photos that did come out. I also had fun watching my friends perform, meeting some new people, and chatting about cameras, Godzilla, and Rush.
+</section>
+<button class="expand-toggle show-more" type="button"></button>
