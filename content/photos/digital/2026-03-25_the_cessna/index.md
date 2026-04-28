@@ -3,7 +3,7 @@ title: 2026-03-25 (The Cessna)
 date: 2026-03-26T20:55:34-05:00
 draft: false
 imgur_album_ids: ["yLUEDLe"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>

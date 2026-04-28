@@ -3,7 +3,7 @@ title: 2026-03-30 (Rogers Park)
 date: 2026-03-30T20:03:37-05:00
 draft: false
 imgur_album_ids: ["7g8KCcr"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>

@@ -3,7 +3,7 @@ title: 2026-02-10~03-14 (Austin)
 date: 2026-03-16T20:29:51-05:00
 draft: false
 imgur_album_ids: ["GYKYGQv"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>
