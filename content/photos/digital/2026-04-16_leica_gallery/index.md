@@ -3,7 +3,7 @@ title: 2026-04-16 (Leica Gallery)
 date: 2026-04-16T22:47:27-05:00
 draft: false
 imgur_album_ids: ["NFrvVzk"]
-new: true
+new: false
 ---
 
 <h2 id="title">{{< param title >}}</h2>
