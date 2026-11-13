@@ -107,10 +107,16 @@ sections:
         url: https://youtu.be/Qe-VrklTutw
       - creator: Husk IRL
         description: Click click click all the way to 65.
-        id: featured-funny
+        id: ""
         image: /recommendations/huskirl.webp
         title: AI vs The World’s Hardest CAPTCHA
         url: https://youtu.be/swBvMjJdcAM?t=885
+      - creator: Game Grumps
+        description: I hot pissed myself pissing at the hot piss.
+        id: featured-funny
+        image: /recommendations/gg_madlibs.webp
+        title: Madlibs stand up comedy
+        url: https://youtu.be/c4-7y9rbx3Q
 
   - name: inspired
     entries:
