@@ -9,4 +9,5 @@ new: false
 <h2 id="title">{{< param title >}}</h2>
 
 Photos taken before, after, and at the Bristol Reniassance Faire 2025.<br>
+<br>
 Shot on Kodak Portra 400.

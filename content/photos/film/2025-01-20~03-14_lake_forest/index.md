@@ -13,4 +13,5 @@ Also, that day was a bad day to go out. It was so bitterly cold, I could barely 
 I also went to a restaurant that felt like it had been around for a long time too.<br>
 Because it was so cold, I didn't manage to finish the roll until months later when I was preparing for my trip to Japan. I snapped a few frames from around my apartment just to finish the roll so I could avoid putting it through the x-ray machines at the airport.<br>
 I didn't get around to dropping this roll off for development until after I got back from Japan, and then I was told I wouldn't get the scans and negatives back for another two months. I'm writing this in November, and I just got the scans back.<br>
+<br>
 Shot on Kodak 400 TX

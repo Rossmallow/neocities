@@ -8,6 +8,6 @@ new: false
 
 <h2 id="title">{{< param title >}}</h2>
 
-I took these when I went out to lunch with my friends on the eve of 2026. The photos are pretty overexposed. It was an overcast day and I used 800ISO film. I probably should have used something less sensative, but there were a few photos that turned out okay. This isn't my proudest roll.
-
+I took these when I went out to lunch with my friends on the eve of 2026. The photos are pretty overexposed. It was an overcast day and I used 800ISO film. I probably should have used something less sensative, but there were a few photos that turned out okay. This isn't my proudest roll.<br>
+<br>
 Shot on Marix 800T.

@@ -9,4 +9,5 @@ new: false
 <h2 id="title">{{< param title >}}</h2>
 
 Photos taken at the Bristol Reniassance Faire 2024.<br>
+<br>
 Shot with Fuji Superia X-Tra 400 on my Miranda.

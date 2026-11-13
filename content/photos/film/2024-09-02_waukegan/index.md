@@ -9,4 +9,5 @@ new: false
 <h2 id="title">{{< param title >}}</h2>
 
 Daytrip to Waukegan, IL on Labor Day.<br>
+<br>
 Shot with Cinestill 800T.

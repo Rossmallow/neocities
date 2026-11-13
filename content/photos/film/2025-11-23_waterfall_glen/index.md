@@ -9,5 +9,6 @@ new: false
 <h2 id="title">{{< param title >}}</h2>
 
 I went to Waterfall Glen in Lemont Illinois for an autumn hike with my friends. We walked about 10 miles in total and had a lot of fun together. I'm proud that we made it through the whole path.<br>
+<br>
 Shot on Kodak UltraMax 400.<br>
 Check out my digital photos from the same day: <a href="/photos/digital/2025-11-23_waterfall_glen">2025-11-23 (Waterfall Glen)</a>

@@ -10,4 +10,5 @@ new: false
 
 This was the first roll I shot in my stay in Japan in the spring of 2025. I wanted to try a film stock I haven't tried before but it turned out much less saturated than I expected it to so I lost a lot of the color I was trying to capture. I still ended up with a few nice photos still though.
 Photos span from 03-22-2025 to 03-25-2025.<br>
+<br>
 Shot with Yashica Ruby 60s.

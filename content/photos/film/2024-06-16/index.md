@@ -9,4 +9,5 @@ new: false
 <h2 id="title">{{< param title >}}</h2>
 
 My first roll shot on my Miranda camera.<br>
+<br>
 Shot with Fuji Superia X-Tra 400.
